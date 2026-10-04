@@ -1,0 +1,24 @@
+import {mkdir,writeFile,cp,rm} from 'node:fs/promises';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+import {page,esc} from '../src/templates.mjs';
+import {services,sectors,ui} from '../src/content.mjs';
+const brandPath=path.resolve(process.env.BRAND_FILE||'src/brand.mjs');
+const {default:brand}=await import(pathToFileURL(brandPath));
+if(!brand.name||!Array.isArray(brand.locales)||brand.locales.some(l=>!ui[l]))throw Error('Invalid brand configuration');
+for(const key of ['accent','accentBright','surface','ink'])if(!/^#[a-f0-9]{6}$/i.test(brand[key]))throw Error(`Invalid color: ${key}`);
+if(brand.email&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(brand.email))throw Error('Invalid enquiry email');
+if(brand.whatsapp&&!/^\d{7,15}$/.test(brand.whatsapp))throw Error('WhatsApp must be international digits only');
+for(const key of ['siteUrl','bookingUrl'])if(brand[key]&&!/^https:\/\//.test(brand[key]))throw Error(`${key} must use HTTPS`);
+const routes=['','services',...services.map(s=>'services/'+s.slug),'solutions',...sectors.map(s=>'solutions/'+s.slug),'studio','contact','privacy'];
+await rm('dist',{recursive:true,force:true});await mkdir('dist/assets',{recursive:true});
+await cp('assets','dist/assets',{recursive:true,filter:source=>!source.endsWith('.png')});
+await writeFile('dist/assets/favicon.svg',`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="${brand.ink}"/><path fill="${brand.accentBright}" d="M14 14h15v15H14zm21 0h15v15H35zM14 35h15v15H14zm21 0h15v15H35z"/></svg>`);
+for(const locale of brand.locales){for(const route of routes){const directory=path.join('dist',locale,route);await mkdir(directory,{recursive:true});const depth=1+(route?route.split('/').length:0);await writeFile(path.join(directory,'index.html'),page({brand,locale,route,root:'../'.repeat(depth)}));}}
+const dest=brand.defaultLocale+'/';
+await writeFile('dist/index.html',`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=${dest}"><title>${esc(brand.name)}</title></head><body><a href="${dest}">Enter ${esc(brand.name)}</a><script>location.replace(${JSON.stringify(dest)}+location.search+location.hash)</script></body></html>`);
+await writeFile('dist/404.html',`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found | ${esc(brand.name)}</title><style>body{font:18px/1.6 Arial,sans-serif;background:${brand.surface};color:${brand.ink};padding:10vw}h1{font-size:60px;font-weight:400}a{color:${brand.accent}}</style></head><body><p>${esc(brand.name)} / 404</p><h1>Beyond the map.</h1><p>This page could not be found.</p><a href="javascript:history.back()">Go back</a></body></html>`);
+if(brand.siteUrl){const origin=brand.siteUrl.replace(/\/$/,'');await writeFile('dist/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${brand.locales.flatMap(l=>routes.map(r=>`<url><loc>${esc(origin+'/'+l+'/'+(r?r+'/':''))}</loc></url>`)).join('')}</urlset>`);await writeFile('dist/robots.txt',`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);}else await writeFile('dist/robots.txt','User-agent: *\nDisallow: /\n');
+await writeFile('dist/.nojekyll','');
+if(brand.siteUrl) await writeFile('dist/CNAME',new URL(brand.siteUrl).hostname+'\n');
+console.log(`Built ${routes.length*brand.locales.length} pages in ${brand.locales.join(', ')}. No runtime dependencies.`);
