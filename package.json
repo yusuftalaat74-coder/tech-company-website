@@ -4,6 +4,14 @@
   "private": true,
   "type": "module",
   "description": "Multilingual, rebrandable technology company website",
-  "scripts": { "build": "node scripts/build.mjs", "dev": "node scripts/serve.mjs", "start": "node scripts/serve.mjs", "check": "node scripts/check.mjs" },
-  "engines": { "node": ">=20" }
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "admin": "node scripts/admin.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }

@@ -1,0 +1,2447 @@
+{
+  "brand": {
+    "name": "AFRICA TECH",
+    "motion": {
+      "enabled": true,
+      "globe": true,
+      "orbits": true,
+      "stories": true,
+      "duration": 13,
+      "globeSpeed": 1,
+      "partners": [],
+      "scenes": [
+        {
+          "id": "queen",
+          "name": "Queen Secret",
+          "type": "beauty",
+          "enabled": true,
+          "color": "#9d6f78",
+          "url": "",
+          "image": "",
+          "descriptionIndex": 0,
+          "title": {
+            "ar": "",
+            "en": "",
+            "fr": "",
+            "pt": ""
+          }
+        },
+        {
+          "id": "west",
+          "name": "West Wings",
+          "type": "flight",
+          "enabled": true,
+          "color": "#294b5b",
+          "url": "https://westwingscargo.com/",
+          "image": "",
+          "descriptionIndex": 1,
+          "title": {
+            "ar": "",
+            "en": "",
+            "fr": "",
+            "pt": ""
+          }
+        },
+        {
+          "id": "wimbi",
+          "name": "Wimbi",
+          "type": "dining",
+          "enabled": true,
+          "color": "#997b37",
+          "url": "",
+          "image": "",
+          "descriptionIndex": 2,
+          "title": {
+            "ar": "",
+            "en": "",
+            "fr": "",
+            "pt": ""
+          }
+        },
+        {
+          "id": "kofta",
+          "name": "Senior Kofta",
+          "type": "dining",
+          "enabled": true,
+          "color": "#a74028",
+          "url": "",
+          "image": "",
+          "descriptionIndex": 3,
+          "title": {
+            "ar": "",
+            "en": "",
+            "fr": "",
+            "pt": ""
+          }
+        },
+        {
+          "id": "switx",
+          "name": "Switx Visions",
+          "type": "studio",
+          "enabled": true,
+          "color": "#47604b",
+          "url": "",
+          "image": "",
+          "descriptionIndex": 4,
+          "title": {
+            "ar": "",
+            "en": "",
+            "fr": "",
+            "pt": ""
+          }
+        }
+      ]
+    },
+    "shortName": "AT",
+    "portfolio": [
+      "Queen Secret",
+      "Wimbi",
+      "Switx Visions",
+      "West Wings",
+      "Senior Kofta"
+    ],
+    "accent": "#d64520",
+    "accentBright": "#f15a2b",
+    "surface": "#f5f4ef",
+    "ink": "#171a18",
+    "email": "",
+    "whatsapp": "",
+    "bookingUrl": "",
+    "siteUrl": "https://tech.yusuftalaat.tech",
+    "defaultLocale": "en",
+    "locales": [
+      "en",
+      "ar",
+      "fr",
+      "pt"
+    ],
+    "description": {
+      "en": "Websites, mobile apps, business systems and cloud infrastructure. An African perspective. A global ambition.",
+      "fr": "Sites web, applications mobiles, systèmes de gestion et cloud. Une vision africaine, une ambition mondiale.",
+      "pt": "Sites, aplicações móveis, sistemas de gestão e cloud. Perspetiva africana, ambição global.",
+      "ar": "مواقع وتطبيقات وأنظمة أعمال وبنية سحابية. برؤية أفريقية وطموح عالمي."
+    }
+  },
+  "ui": {
+    "en": {
+      "nav": [
+        "Services",
+        "Solutions",
+        "Our approach"
+      ],
+      "start": "Start a project",
+      "skip": "Skip to content",
+      "menu": "Open navigation",
+      "close": "Close",
+      "language": "العربية",
+      "eyebrow": "AFRICAN ROOTS. GLOBAL AMBITION.",
+      "hero": [
+        "Big ideas.",
+        "Built beyond",
+        "boundaries."
+      ],
+      "heroDesc": "From the first spark to your next big leap. We design, build and power the digital experiences that move your business forward.",
+      "explore": "Explore our capabilities",
+      "heroNote": "STRATEGY → DESIGN → ENGINEERING → GROWTH",
+      "scroll": "Scroll to discover",
+      "strip": [
+        "Digital experiences",
+        "Intelligent systems",
+        "Cloud infrastructure",
+        "One connected partner"
+      ],
+      "serviceEyebrow": "WHAT WE DO",
+      "serviceTitle": "Every ambition.\nThe right technology.",
+      "serviceDesc": "A complete technology partner, from the experience your customers see to the systems that make it all work.",
+      "allServices": "Discover all services",
+      "learn": "Explore service",
+      "selectedEyebrow": "POSSIBILITIES, MADE TANGIBLE",
+      "selectedTitle": "Ideas you can\ninteract with.",
+      "selectedDesc": "Explore two interface concepts. A glimpse of how thoughtful design turns complex operations into simple experiences.",
+      "concept": "INTERACTIVE CONCEPT",
+      "viewDemo": "Explore the concept",
+      "clinicTitle": "A clearer picture of care.",
+      "clinicDesc": "Appointments, patient journeys and daily operations. Connected in one calm workspace.",
+      "fleetTitle": "Keep every move connected.",
+      "fleetDesc": "A single view of your fleet, routes and deliveries. Built around the people making it happen.",
+      "globalEyebrow": "BUILT FOR YOUR WORLD",
+      "globalTitle": "Rooted in Africa.\nOpen to the world.",
+      "globalDesc": "Great technology understands the place it serves. We shape digital products around real people, local contexts and ambitions that cross borders.",
+      "globalItems": [
+        [
+          "Local context",
+          "Language, connectivity and the way your customers pay, considered from the beginning."
+        ],
+        [
+          "Global thinking",
+          "Clear architecture and thoughtful interfaces, ready for your next stage of growth."
+        ],
+        [
+          "Long-term partnership",
+          "From the first conversation to launch, maintenance and what comes next."
+        ]
+      ],
+      "processEyebrow": "HOW WE GET THERE",
+      "processTitle": "Clarity at every step.",
+      "processDesc": "You bring the ambition. Together, we make a practical path from idea to impact.",
+      "steps": [
+        [
+          "Discover",
+          "Understand your business, your users and what success should look like."
+        ],
+        [
+          "Design",
+          "Make the experience tangible with prototypes, clear flows and a shared direction."
+        ],
+        [
+          "Build",
+          "Engineer in focused stages, with regular reviews and visible progress."
+        ],
+        [
+          "Evolve",
+          "Launch thoughtfully, learn from real use and keep improving."
+        ]
+      ],
+      "ctaEyebrow": "YOUR NEXT CHAPTER STARTS HERE",
+      "ctaTitle": "Let’s build\nsomething that matters.",
+      "ctaDesc": "A new idea. A complex challenge. A better way forward.",
+      "footerDesc": "Technology with purpose.\nPossibilities without borders.",
+      "footerLabels": [
+        "Explore",
+        "Expertise",
+        "Let’s connect"
+      ],
+      "footerNote": "An African perspective. A global ambition.",
+      "privacy": "Privacy",
+      "backTop": "Back to top",
+      "servicesTitle": "Technology,\nworking together.",
+      "servicesIntro": "A beautiful website is just the beginning. Connect your digital presence, your operations and your infrastructure with one considered approach.",
+      "included": "What we can build",
+      "delivery": "How we work together",
+      "deliveryText": "We agree on scope, priorities and delivery milestones before development begins. Every project includes a documented handover and a clear support plan.",
+      "related": "Explore more capabilities",
+      "solutionsTitle": "Your industry.\nA new perspective.",
+      "solutionsIntro": "The best solutions start with understanding your work. Explore practical ways technology can simplify the everyday and open up what is possible.",
+      "all": "All industries",
+      "industry": "INDUSTRY SOLUTIONS",
+      "industryCta": "Discuss your requirements",
+      "sectorLabel": "Explore the opportunity",
+      "studioTitle": "Curious minds.\nConsidered technology.",
+      "studioIntro": "AFRICA TECH is a vision for a connected technology partner: bringing strategy, design and engineering into the same conversation.",
+      "beliefTitle": "Good work starts\nwith better questions.",
+      "beliefDesc": "What are we solving? Who are we building for? What happens after launch? We bring these questions into every stage, keeping the work grounded in your business.",
+      "values": [
+        [
+          "Purpose before features",
+          "Choose the things that make a difference to your customers and your team."
+        ],
+        [
+          "Craft in the details",
+          "From the first interaction to the final handover, the details shape the experience."
+        ],
+        [
+          "Open collaboration",
+          "Clear decisions, shared priorities and a process you can see."
+        ],
+        [
+          "Built to grow",
+          "Practical foundations that can evolve alongside your organisation."
+        ]
+      ],
+      "contactTitle": "Big things begin\nwith a conversation.",
+      "contactIntro": "Tell us a little about what you have in mind. We’ll help turn the moving pieces into a clear project brief.",
+      "formLabels": [
+        "Your name",
+        "Work email",
+        "Company",
+        "What would you like to build?",
+        "Tell us about your idea"
+      ],
+      "formPlaceholders": [
+        "How should we call you?",
+        "you@company.com",
+        "Company or organisation",
+        "The challenge, the idea, the possibilities…"
+      ],
+      "select": "Select a service",
+      "budget": "Project stage",
+      "budgetOptions": [
+        "Exploring an idea",
+        "Ready to get started",
+        "Improving an existing product"
+      ],
+      "formAction": "Prepare my project brief",
+      "formNote": "Your information stays in this browser. Preparing a brief does not send an enquiry.",
+      "formReady": "Your project brief is ready.",
+      "formReadyDesc": "Review and download it below. No enquiry has been sent.",
+      "download": "Download project brief",
+      "emailBrief": "Open email with this brief",
+      "reset": "Edit my brief",
+      "optional": "Optional",
+      "privacyText": "Only share information you are comfortable including in a project brief.",
+      "contactAside": "A useful first conversation",
+      "contactList": [
+        "Your goals and what matters most",
+        "The people who will use it",
+        "The right starting point",
+        "Scope, timing and next steps"
+      ],
+      "faqTitle": "A few things you might be wondering.",
+      "faqs": [
+        [
+          "Can we start with a small project?",
+          "Yes. A focused website, prototype or integration is often the right place to start. The scope can grow as the direction becomes clearer."
+        ],
+        [
+          "Can you work with our existing systems?",
+          "We begin by reviewing your current setup, access and integration options, then recommend a practical path forward."
+        ],
+        [
+          "Who owns the code and design?",
+          "Ownership, licences and handover are agreed in the project scope before work begins, so responsibilities are clear from the start."
+        ],
+        [
+          "What happens after launch?",
+          "We can define an ongoing support plan covering maintenance, hosting and future improvements according to your needs."
+        ]
+      ],
+      "demoNotice": "Illustrative interface with sample data. This is a design concept, not a live client system.",
+      "demoTab": [
+        "Overview",
+        "Appointments"
+      ],
+      "demoFilter": [
+        "All deliveries",
+        "In transit",
+        "Delivered"
+      ],
+      "demoClose": "Close concept",
+      "demoBook": "Discuss a similar project",
+      "privacyTitle": "Your privacy,\nby design.",
+      "privacyIntro": "How this demonstration website handles information.",
+      "privacyBody": [
+        [
+          "Project briefs",
+          "The project form runs in your browser. Preparing or downloading a brief does not send your information to us. If you choose an email or WhatsApp action, that service handles the message."
+        ],
+        [
+          "Browser preferences",
+          "The site does not use analytics or advertising cookies. Navigation and interface settings are limited to the current page."
+        ],
+        [
+          "Hosting",
+          "The hosting provider may process technical request information to deliver the website. Its own privacy terms apply."
+        ],
+        [
+          "Before a public launch",
+          "This demonstration notice must be updated with the final company identity, contact information and the actual services used to receive enquiries."
+        ]
+      ],
+      "notFound": "This page has moved beyond the map.",
+      "home": "Back to home",
+      "techLabel": "BUILT AROUND YOUR BUSINESS",
+      "serviceAside": "One idea. Many possibilities.",
+      "demoNames": [
+        "Clinic workspace",
+        "Fleet command"
+      ],
+      "navSolutions": "Industry solutions"
+    },
+    "ar": {
+      "nav": [
+        "خدماتنا",
+        "حلول القطاعات",
+        "منهجنا"
+      ],
+      "start": "ابدأ مشروعك",
+      "skip": "انتقل إلى المحتوى",
+      "menu": "افتح القائمة",
+      "close": "إغلاق",
+      "language": "English",
+      "eyebrow": "جذور أفريقية. طموح عالمي.",
+      "hero": [
+        "أفكار كبيرة.",
+        "نبنيها بلا",
+        "حدود."
+      ],
+      "heroDesc": "من الشرارة الأولى إلى خطوتك الكبيرة القادمة. نصمم ونطور ونشغّل تجارب رقمية تدفع أعمالك للأمام.",
+      "explore": "اكتشف قدراتنا",
+      "heroNote": "استراتيجية ← تصميم ← تطوير ← نمو",
+      "scroll": "اكتشف المزيد",
+      "strip": [
+        "تجارب رقمية",
+        "أنظمة ذكية",
+        "بنية سحابية",
+        "شريك تقني متكامل"
+      ],
+      "serviceEyebrow": "ماذا نقدم",
+      "serviceTitle": "لكل طموح.\nالتقنية المناسبة.",
+      "serviceDesc": "شريك تقني متكامل، من التجربة التي يراها عملاؤك إلى الأنظمة التي تدير أعمالك من الداخل.",
+      "allServices": "اكتشف كل الخدمات",
+      "learn": "اكتشف الخدمة",
+      "selectedEyebrow": "أفكار تصبح ملموسة",
+      "selectedTitle": "أفكار يمكنك\nالتفاعل معها.",
+      "selectedDesc": "استكشف نموذجين لواجهات تفاعلية يوضّحان كيف يحوّل التصميم المدروس العمليات المعقدة إلى تجارب بسيطة.",
+      "concept": "تصور تفاعلي",
+      "viewDemo": "استكشف التصور",
+      "clinicTitle": "رؤية أوضح للرعاية.",
+      "clinicDesc": "المواعيد ورحلة المريض والعمليات اليومية، في مساحة عمل واحدة منظّمة.",
+      "fleetTitle": "كل حركة، على اتصال.",
+      "fleetDesc": "صورة واحدة للأسطول والمسارات والتوصيل، مصممة حول الأشخاص الذين يديرون العمل.",
+      "globalEyebrow": "نفهم عالمك",
+      "globalTitle": "من أفريقيا.\nإلى آفاق العالم.",
+      "globalDesc": "التقنية الجيدة تفهم البيئة التي تعمل فيها. نبني المنتجات الرقمية حول الناس واحتياجاتهم المحلية وطموحاتهم التي تتجاوز الحدود.",
+      "globalItems": [
+        [
+          "نفهم السياق المحلي",
+          "اللغة والاتصال وطرق الدفع التي يستخدمها عملاؤك، جزء من التفكير منذ البداية."
+        ],
+        [
+          "نفكر عالميًا",
+          "بنية واضحة وتجارب استخدام مدروسة تستوعب الخطوة التالية لنمو أعمالك."
+        ],
+        [
+          "شراكة مستمرة",
+          "من الحوار الأول إلى الإطلاق والصيانة، ثم ما يأتي بعد ذلك."
+        ]
+      ],
+      "processEyebrow": "كيف نصل للنتيجة",
+      "processTitle": "وضوح في كل خطوة.",
+      "processDesc": "أنت تأتي بالطموح. ومعًا نرسم طريقًا عمليًا من الفكرة إلى الأثر.",
+      "steps": [
+        [
+          "نكتشف",
+          "نفهم عملك ومستخدميك وما تعنيه النتيجة الناجحة بالنسبة لك."
+        ],
+        [
+          "نصمم",
+          "نحوّل التجربة إلى نماذج ملموسة ومسارات واضحة واتجاه مشترك."
+        ],
+        [
+          "نبني",
+          "نطور على مراحل محددة، مع مراجعات منتظمة وتقدم يمكنك متابعته."
+        ],
+        [
+          "نطوّر باستمرار",
+          "نطلق بعناية، ونتعلم من الاستخدام الفعلي، ونواصل التحسين."
+        ]
+      ],
+      "ctaEyebrow": "فصلك القادم يبدأ هنا",
+      "ctaTitle": "لنبنِ معًا\nشيئًا يصنع فرقًا.",
+      "ctaDesc": "فكرة جديدة. تحدٍ معقد. طريق أفضل للأمام.",
+      "footerDesc": "تقنية لها هدف.\nوإمكانيات بلا حدود.",
+      "footerLabels": [
+        "استكشف",
+        "خبراتنا",
+        "لنبقَ على اتصال"
+      ],
+      "footerNote": "رؤية أفريقية. طموح عالمي.",
+      "privacy": "الخصوصية",
+      "backTop": "العودة للأعلى",
+      "servicesTitle": "تقنية متكاملة.\nتعمل من أجلك.",
+      "servicesIntro": "الموقع المميز هو البداية. اربط حضورك الرقمي وعملياتك وبنيتك التقنية برؤية واحدة متكاملة.",
+      "included": "ما يمكننا بناؤه",
+      "delivery": "كيف نعمل معًا",
+      "deliveryText": "نتفق على النطاق والأولويات ومراحل التسليم قبل بدء التطوير. ويشمل كل مشروع تسليمًا موثقًا وخطة دعم واضحة.",
+      "related": "اكتشف المزيد من قدراتنا",
+      "solutionsTitle": "قطاعك.\nبرؤية جديدة.",
+      "solutionsIntro": "تبدأ الحلول المناسبة بفهم طبيعة عملك. استكشف كيف تبسّط التقنية التفاصيل اليومية وتفتح فرصًا جديدة.",
+      "all": "كل القطاعات",
+      "industry": "حلول القطاعات",
+      "industryCta": "ناقش متطلباتك",
+      "sectorLabel": "اكتشف الفرصة",
+      "studioTitle": "عقول فضولية.\nوتقنية مدروسة.",
+      "studioIntro": "AFRICA TECH رؤية لشريك تقني متكامل، يجمع الاستراتيجية والتصميم والتطوير في حوار واحد.",
+      "beliefTitle": "العمل الجيد يبدأ\nبأسئلة أفضل.",
+      "beliefDesc": "ماذا نحل؟ ولمن نبني؟ وماذا بعد الإطلاق؟ نطرح هذه الأسئلة في كل مرحلة لتبقى التقنية مرتبطة باحتياجات عملك.",
+      "values": [
+        [
+          "الهدف قبل المزايا",
+          "نختار ما يصنع فرقًا حقيقيًا لعملائك وفريقك."
+        ],
+        [
+          "العناية بالتفاصيل",
+          "من أول تفاعل إلى التسليم النهائي، التفاصيل تصنع التجربة."
+        ],
+        [
+          "تعاون واضح",
+          "قرارات مفهومة وأولويات مشتركة وخطوات يمكنك متابعتها."
+        ],
+        [
+          "قابلية للنمو",
+          "أسس عملية تتطور مع تطور مؤسستك."
+        ]
+      ],
+      "contactTitle": "الأفكار الكبيرة\nتبدأ بحوار.",
+      "contactIntro": "احكِ لنا قليلًا عما تفكر فيه. سنساعدك على ترتيب التفاصيل في موجز واضح لمشروعك.",
+      "formLabels": [
+        "اسمك",
+        "البريد الإلكتروني للعمل",
+        "الشركة",
+        "ماذا تريد أن تبني؟",
+        "احكِ لنا عن فكرتك"
+      ],
+      "formPlaceholders": [
+        "بأي اسم نناديك؟",
+        "you@company.com",
+        "اسم الشركة أو المؤسسة",
+        "التحدي أو الفكرة أو الإمكانيات التي تتخيلها…"
+      ],
+      "select": "اختر الخدمة",
+      "budget": "مرحلة المشروع",
+      "budgetOptions": [
+        "أستكشف فكرة",
+        "جاهز للبدء",
+        "أطور منتجًا قائمًا"
+      ],
+      "formAction": "جهّز موجز مشروعي",
+      "formNote": "تظل بياناتك داخل هذا المتصفح. تجهيز الموجز لا يرسل طلبًا للشركة.",
+      "formReady": "موجز مشروعك جاهز.",
+      "formReadyDesc": "راجعه وحمّله من هنا. لم يتم إرسال أي طلب.",
+      "download": "تحميل موجز المشروع",
+      "emailBrief": "افتح البريد بهذا الموجز",
+      "reset": "عدّل الموجز",
+      "optional": "اختياري",
+      "privacyText": "اكتب فقط المعلومات التي ترغب في مشاركتها ضمن موجز المشروع.",
+      "contactAside": "حوار أول يستحق وقتك",
+      "contactList": [
+        "أهدافك وأهم أولوياتك",
+        "من سيستخدم المنتج",
+        "نقطة البداية المناسبة",
+        "النطاق والتوقيت والخطوات التالية"
+      ],
+      "faqTitle": "أسئلة قد تدور في بالك.",
+      "faqs": [
+        [
+          "هل يمكن أن نبدأ بمشروع صغير؟",
+          "بالتأكيد. موقع محدد النطاق أو نموذج أولي أو ربط بين نظامين قد يكون البداية الأنسب. ويمكن توسيع النطاق عندما تتضح الرؤية."
+        ],
+        [
+          "هل يمكن العمل مع أنظمتنا الحالية؟",
+          "نبدأ بمراجعة الأنظمة الحالية والصلاحيات وخيارات الربط المتاحة، ثم نقترح مسارًا عمليًا للتنفيذ."
+        ],
+        [
+          "من يملك الكود والتصميم؟",
+          "نتفق على الملكية والتراخيص وآلية التسليم في نطاق المشروع قبل بدء العمل، لتكون المسؤوليات واضحة منذ البداية."
+        ],
+        [
+          "ماذا يحدث بعد الإطلاق؟",
+          "يمكن الاتفاق على خطة مستمرة للصيانة والاستضافة والتحسينات المستقبلية وفق احتياجاتك."
+        ]
+      ],
+      "demoNotice": "واجهة توضيحية ببيانات تجريبية. هذا تصور تصميمي وليس نظامًا فعليًا لعميل.",
+      "demoTab": [
+        "نظرة عامة",
+        "المواعيد"
+      ],
+      "demoFilter": [
+        "كل الشحنات",
+        "في الطريق",
+        "تم التسليم"
+      ],
+      "demoClose": "إغلاق التصور",
+      "demoBook": "ناقش مشروعًا مشابهًا",
+      "privacyTitle": "خصوصيتك.\nضمن التصميم.",
+      "privacyIntro": "كيف تتعامل هذه النسخة التجريبية مع المعلومات.",
+      "privacyBody": [
+        [
+          "موجز المشروع",
+          "يعمل النموذج داخل المتصفح. تجهيز الموجز أو تحميله لا يرسل بياناتك إلينا. عند اختيار البريد أو واتساب، تتولى الخدمة المختارة التعامل مع الرسالة."
+        ],
+        [
+          "تفضيلات المتصفح",
+          "لا يستخدم الموقع أدوات تحليلات أو ملفات تعريف ارتباط إعلانية. تقتصر إعدادات الواجهة على الصفحة الحالية."
+        ],
+        [
+          "الاستضافة",
+          "قد يعالج مزود الاستضافة معلومات تقنية عن الطلبات لتشغيل الموقع. وتُطبق سياسة الخصوصية الخاصة به."
+        ],
+        [
+          "قبل الإطلاق العام",
+          "يجب تحديث هذا الإشعار التجريبي ببيانات الشركة النهائية ووسائل التواصل والخدمات الفعلية المستخدمة لاستقبال الطلبات."
+        ]
+      ],
+      "notFound": "هذه الصفحة خارج الخريطة.",
+      "home": "العودة للرئيسية",
+      "techLabel": "نصمم حول احتياجات عملك",
+      "serviceAside": "فكرة واحدة. احتمالات كثيرة.",
+      "demoNames": [
+        "مساحة العيادة",
+        "إدارة الأسطول"
+      ],
+      "navSolutions": "حلول القطاعات"
+    },
+    "fr": {
+      "nav": [
+        "Services",
+        "Solutions",
+        "Notre approche"
+      ],
+      "start": "Lancer un projet",
+      "skip": "Aller au contenu",
+      "menu": "Ouvrir le menu",
+      "close": "Fermer",
+      "language": "Français",
+      "eyebrow": "RACINES AFRICAINES. AMBITION MONDIALE.",
+      "hero": [
+        "De grandes idées.",
+        "Au-delà des",
+        "frontières."
+      ],
+      "heroDesc": "Du premier déclic à votre prochaine étape. Nous concevons et développons des expériences numériques qui font avancer votre entreprise.",
+      "explore": "Explorer nos compétences",
+      "heroNote": "STRATÉGIE → DESIGN → DÉVELOPPEMENT → CROISSANCE",
+      "scroll": "Découvrir",
+      "strip": [
+        "Expériences numériques",
+        "Systèmes intelligents",
+        "Infrastructure cloud",
+        "Un partenaire connecté"
+      ],
+      "serviceEyebrow": "NOS EXPERTISES",
+      "serviceTitle": "À chaque ambition,\nsa technologie.",
+      "serviceDesc": "Un partenaire technologique complet, de l’expérience client aux systèmes qui soutiennent votre activité.",
+      "allServices": "Découvrir les services",
+      "learn": "Explorer ce service",
+      "selectedEyebrow": "DES IDÉES CONCRÈTES",
+      "selectedTitle": "Des idées à\nexpérimenter.",
+      "selectedDesc": "Explorez deux concepts interactifs montrant comment le design peut simplifier des opérations complexes.",
+      "concept": "CONCEPT INTERACTIF",
+      "viewDemo": "Explorer le concept",
+      "clinicTitle": "Une vision plus claire des soins.",
+      "clinicDesc": "Rendez-vous, parcours patients et opérations quotidiennes dans un même espace.",
+      "fleetTitle": "Chaque mouvement, connecté.",
+      "fleetDesc": "Une vue de votre flotte, de vos itinéraires et de vos livraisons, pensée pour votre équipe.",
+      "globalEyebrow": "PENSÉ POUR VOTRE UNIVERS",
+      "globalTitle": "Ancré en Afrique.\nOuvert sur le monde.",
+      "globalDesc": "La technologie comprend les réalités de ceux qu’elle sert. Nos produits partent des besoins locaux et des ambitions sans frontières.",
+      "globalItems": [
+        [
+          "Comprendre le contexte",
+          "Langue, connectivité et moyens de paiement intégrés dès le départ."
+        ],
+        [
+          "Voir plus loin",
+          "Une architecture claire qui accompagne la croissance."
+        ],
+        [
+          "Une relation durable",
+          "De la première discussion au lancement et aux évolutions."
+        ]
+      ],
+      "processEyebrow": "NOTRE MÉTHODE",
+      "processTitle": "De la clarté à chaque étape.",
+      "processDesc": "Vous apportez l’ambition. Ensemble, nous traçons un chemin concret de l’idée au résultat.",
+      "steps": [
+        [
+          "Découvrir",
+          "Comprendre votre activité, vos utilisateurs et vos objectifs."
+        ],
+        [
+          "Concevoir",
+          "Tester les parcours et les prototypes pour définir une direction commune."
+        ],
+        [
+          "Développer",
+          "Avancer par étapes avec des revues régulières et des progrès visibles."
+        ],
+        [
+          "Faire évoluer",
+          "Lancer avec soin, apprendre des usages et améliorer le produit."
+        ]
+      ],
+      "ctaEyebrow": "VOTRE PROCHAINE ÉTAPE COMMENCE ICI",
+      "ctaTitle": "Créons ensemble\nquelque chose d’utile.",
+      "ctaDesc": "Une idée. Un défi. Une nouvelle voie.",
+      "footerDesc": "Une technologie utile.\nDes possibilités sans frontières.",
+      "footerLabels": [
+        "Explorer",
+        "Expertises",
+        "Échangeons"
+      ],
+      "footerNote": "Une vision africaine. Une ambition mondiale.",
+      "privacy": "Confidentialité",
+      "backTop": "Haut de page",
+      "servicesTitle": "Des technologies\nqui fonctionnent ensemble.",
+      "servicesIntro": "Un beau site n’est qu’un début. Reliez votre présence numérique, vos opérations et votre infrastructure.",
+      "included": "Ce que nous pouvons créer",
+      "delivery": "Notre collaboration",
+      "deliveryText": "Le périmètre, les priorités et les étapes sont convenus avant le développement. La livraison inclut la documentation et un plan de support clair.",
+      "related": "Explorer nos autres expertises",
+      "solutionsTitle": "Votre secteur.\nUn nouveau regard.",
+      "solutionsIntro": "Comprendre votre activité pour simplifier le quotidien et ouvrir de nouvelles possibilités.",
+      "all": "Tous les secteurs",
+      "industry": "SOLUTIONS SECTORIELLES",
+      "industryCta": "Parlons de vos besoins",
+      "sectorLabel": "Explorer la solution",
+      "studioTitle": "Des esprits curieux.\nUne technologie réfléchie.",
+      "studioIntro": "AFRICA TECH réunit stratégie, design et développement dans une même conversation.",
+      "beliefTitle": "Les bonnes questions\nfont les bons projets.",
+      "beliefDesc": "Quel problème résoudre ? Pour qui ? Et après le lancement ? Ces questions guident chaque étape.",
+      "values": [
+        [
+          "L’objectif avant les fonctionnalités",
+          "Choisir ce qui compte pour les clients et l’équipe."
+        ],
+        [
+          "Le soin du détail",
+          "Chaque interaction et chaque livraison façonnent l’expérience."
+        ],
+        [
+          "Une collaboration ouverte",
+          "Des décisions claires et un processus partagé."
+        ],
+        [
+          "Des bases évolutives",
+          "Une fondation pratique qui grandit avec votre organisation."
+        ]
+      ],
+      "contactTitle": "Les grandes idées\ncommencent par un échange.",
+      "contactIntro": "Décrivez votre idée et préparez une note de projet claire.",
+      "formLabels": [
+        "Votre nom",
+        "Email professionnel",
+        "Entreprise",
+        "Que souhaitez-vous créer ?",
+        "Parlez-nous de votre idée"
+      ],
+      "formPlaceholders": [
+        "Comment vous appelez-vous ?",
+        "vous@entreprise.com",
+        "Entreprise ou organisation",
+        "Le défi, l’idée, les possibilités…"
+      ],
+      "select": "Choisir un service",
+      "budget": "Étape du projet",
+      "budgetOptions": [
+        "Explorer une idée",
+        "Prêt à démarrer",
+        "Améliorer un produit existant"
+      ],
+      "formAction": "Préparer ma note de projet",
+      "formNote": "Vos informations restent dans ce navigateur. Préparer la note n’envoie aucune demande.",
+      "formReady": "Votre note de projet est prête.",
+      "formReadyDesc": "Vérifiez-la et téléchargez-la. Aucune demande n’a été envoyée.",
+      "download": "Télécharger la note",
+      "emailBrief": "Ouvrir un email avec cette note",
+      "reset": "Modifier ma note",
+      "optional": "Facultatif",
+      "privacyText": "Indiquez uniquement les informations que vous souhaitez partager dans une note de projet.",
+      "contactAside": "Un premier échange utile",
+      "contactList": [
+        "Vos objectifs et vos priorités",
+        "Les futurs utilisateurs",
+        "Le bon point de départ",
+        "Le périmètre et les prochaines étapes"
+      ],
+      "faqTitle": "Quelques questions fréquentes.",
+      "faqs": [
+        [
+          "Peut-on commencer petit ?",
+          "Oui. Un site ciblé, un prototype ou une intégration peut constituer une première étape."
+        ],
+        [
+          "Pouvez-vous intégrer nos systèmes ?",
+          "Nous examinons les systèmes, les accès et les options d’intégration avant de proposer une solution."
+        ],
+        [
+          "Qui possède le code et le design ?",
+          "La propriété, les licences et la livraison sont convenues avant le début du projet."
+        ],
+        [
+          "Et après le lancement ?",
+          "Un plan de maintenance, d’hébergement et d’amélioration peut être défini selon vos besoins."
+        ]
+      ],
+      "demoNotice": "Interface illustrative avec des données fictives. Ce concept n’est pas un système client en production.",
+      "demoTab": [
+        "Vue d’ensemble",
+        "Rendez-vous"
+      ],
+      "demoFilter": [
+        "Toutes les livraisons",
+        "En transit",
+        "Livrées"
+      ],
+      "demoClose": "Fermer le concept",
+      "demoBook": "Parlons d’un projet similaire",
+      "privacyTitle": "Votre confidentialité,\ndès la conception.",
+      "privacyIntro": "Comment ce site traite les informations.",
+      "privacyBody": [
+        [
+          "Notes de projet",
+          "Le formulaire fonctionne dans le navigateur. Préparer ou télécharger une note ne nous transmet aucune donnée. Un email ou un message WhatsApp est traité par le service choisi."
+        ],
+        [
+          "Préférences du navigateur",
+          "Le site n’utilise ni outil d’analyse ni cookie publicitaire. Les réglages de l’interface restent sur la page en cours."
+        ],
+        [
+          "Hébergement",
+          "L’hébergeur peut traiter des données techniques pour servir le site, selon sa propre politique."
+        ],
+        [
+          "Informations de l’entreprise",
+          "Cette notice devra être complétée avec l’identité définitive, les coordonnées et les services de réception des demandes."
+        ]
+      ],
+      "notFound": "Cette page est hors de la carte.",
+      "home": "Retour à l’accueil",
+      "techLabel": "AUTOUR DE VOTRE ACTIVITÉ",
+      "serviceAside": "Une idée. De nombreuses possibilités.",
+      "demoNames": [
+        "Espace clinique",
+        "Gestion de flotte"
+      ],
+      "navSolutions": "Solutions sectorielles"
+    },
+    "pt": {
+      "nav": [
+        "Serviços",
+        "Soluções",
+        "A nossa abordagem"
+      ],
+      "start": "Iniciar projeto",
+      "skip": "Saltar para o conteúdo",
+      "menu": "Abrir navegação",
+      "close": "Fechar",
+      "language": "Português",
+      "eyebrow": "RAÍZES AFRICANAS. AMBIÇÃO GLOBAL.",
+      "hero": [
+        "Grandes ideias.",
+        "Para lá das",
+        "fronteiras."
+      ],
+      "heroDesc": "Da primeira ideia ao próximo grande passo. Criamos experiências digitais que fazem o seu negócio avançar.",
+      "explore": "Explorar competências",
+      "heroNote": "ESTRATÉGIA → DESIGN → DESENVOLVIMENTO → CRESCIMENTO",
+      "scroll": "Descobrir mais",
+      "strip": [
+        "Experiências digitais",
+        "Sistemas inteligentes",
+        "Infraestrutura cloud",
+        "Um parceiro conectado"
+      ],
+      "serviceEyebrow": "O QUE FAZEMOS",
+      "serviceTitle": "Para cada ambição,\na tecnologia certa.",
+      "serviceDesc": "Um parceiro tecnológico completo, da experiência dos clientes aos sistemas que suportam o negócio.",
+      "allServices": "Descobrir os serviços",
+      "learn": "Explorar serviço",
+      "selectedEyebrow": "IDEIAS QUE GANHAM FORMA",
+      "selectedTitle": "Ideias que pode\nexperimentar.",
+      "selectedDesc": "Explore dois conceitos interativos que mostram como o design simplifica operações complexas.",
+      "concept": "CONCEITO INTERATIVO",
+      "viewDemo": "Explorar o conceito",
+      "clinicTitle": "Uma visão mais clara dos cuidados.",
+      "clinicDesc": "Consultas, percursos dos pacientes e operações diárias num único espaço.",
+      "fleetTitle": "Cada movimento, conectado.",
+      "fleetDesc": "Uma visão da frota, das rotas e das entregas, pensada para quem gere a operação.",
+      "globalEyebrow": "FEITO PARA O SEU MUNDO",
+      "globalTitle": "Com raízes em África.\nAberto ao mundo.",
+      "globalDesc": "A boa tecnologia compreende o contexto que serve. Criamos produtos para pessoas reais e ambições sem fronteiras.",
+      "globalItems": [
+        [
+          "Contexto local",
+          "Idioma, ligação e formas de pagamento considerados desde o início."
+        ],
+        [
+          "Visão global",
+          "Arquitetura clara e interfaces preparadas para a próxima fase."
+        ],
+        [
+          "Parceria duradoura",
+          "Da primeira conversa ao lançamento e à evolução."
+        ]
+      ],
+      "processEyebrow": "COMO TRABALHAMOS",
+      "processTitle": "Clareza em cada etapa.",
+      "processDesc": "Traga a ambição. Juntos, traçamos um caminho prático da ideia ao resultado.",
+      "steps": [
+        [
+          "Descobrir",
+          "Compreender o negócio, os utilizadores e os objetivos."
+        ],
+        [
+          "Desenhar",
+          "Tornar a experiência concreta com protótipos e percursos claros."
+        ],
+        [
+          "Desenvolver",
+          "Avançar por etapas, com revisões regulares e progresso visível."
+        ],
+        [
+          "Evoluir",
+          "Lançar com cuidado, aprender com o uso e continuar a melhorar."
+        ]
+      ],
+      "ctaEyebrow": "O PRÓXIMO CAPÍTULO COMEÇA AQUI",
+      "ctaTitle": "Vamos criar\nalgo que importa.",
+      "ctaDesc": "Uma ideia nova. Um desafio. Um caminho melhor.",
+      "footerDesc": "Tecnologia com propósito.\nPossibilidades sem fronteiras.",
+      "footerLabels": [
+        "Explorar",
+        "Competências",
+        "Vamos conversar"
+      ],
+      "footerNote": "Perspetiva africana. Ambição global.",
+      "privacy": "Privacidade",
+      "backTop": "Voltar ao topo",
+      "servicesTitle": "Tecnologia\nque trabalha em conjunto.",
+      "servicesIntro": "Um bom site é apenas o início. Ligue a presença digital, as operações e a infraestrutura do seu negócio.",
+      "included": "O que podemos criar",
+      "delivery": "Como colaboramos",
+      "deliveryText": "Acordamos o âmbito, as prioridades e as etapas antes do desenvolvimento. Cada projeto inclui documentação e um plano de apoio claro.",
+      "related": "Explorar outras competências",
+      "solutionsTitle": "O seu setor.\nUma nova perspetiva.",
+      "solutionsIntro": "Compreender o seu trabalho para simplificar o dia a dia e abrir novas possibilidades.",
+      "all": "Todos os setores",
+      "industry": "SOLUÇÕES POR SETOR",
+      "industryCta": "Fale sobre os seus requisitos",
+      "sectorLabel": "Explorar a solução",
+      "studioTitle": "Mentes curiosas.\nTecnologia bem pensada.",
+      "studioIntro": "AFRICA TECH junta estratégia, design e desenvolvimento numa só conversa.",
+      "beliefTitle": "Bom trabalho começa\ncom boas perguntas.",
+      "beliefDesc": "Que problema resolvemos? Para quem? E depois do lançamento? Estas perguntas orientam todas as etapas.",
+      "values": [
+        [
+          "O objetivo antes das funções",
+          "Escolher o que faz diferença para clientes e equipas."
+        ],
+        [
+          "Cuidado nos detalhes",
+          "Da primeira interação à entrega, cada detalhe conta."
+        ],
+        [
+          "Colaboração aberta",
+          "Decisões claras, prioridades partilhadas e progresso visível."
+        ],
+        [
+          "Preparado para crescer",
+          "Bases práticas que evoluem com a organização."
+        ]
+      ],
+      "contactTitle": "Grandes ideias\ncomeçam com uma conversa.",
+      "contactIntro": "Conte-nos a sua ideia e prepare um resumo claro do projeto.",
+      "formLabels": [
+        "O seu nome",
+        "Email profissional",
+        "Empresa",
+        "O que pretende criar?",
+        "Fale sobre a sua ideia"
+      ],
+      "formPlaceholders": [
+        "Como se chama?",
+        "nome@empresa.com",
+        "Empresa ou organização",
+        "O desafio, a ideia, as possibilidades…"
+      ],
+      "select": "Escolher serviço",
+      "budget": "Fase do projeto",
+      "budgetOptions": [
+        "A explorar uma ideia",
+        "Pronto para começar",
+        "Melhorar um produto existente"
+      ],
+      "formAction": "Preparar resumo do projeto",
+      "formNote": "Os dados ficam neste navegador. Preparar o resumo não envia nenhum pedido.",
+      "formReady": "O resumo do projeto está pronto.",
+      "formReadyDesc": "Reveja e descarregue abaixo. Nenhum pedido foi enviado.",
+      "download": "Descarregar resumo",
+      "emailBrief": "Abrir email com este resumo",
+      "reset": "Editar resumo",
+      "optional": "Opcional",
+      "privacyText": "Inclua apenas informações que deseja partilhar num resumo de projeto.",
+      "contactAside": "Uma primeira conversa útil",
+      "contactList": [
+        "Objetivos e prioridades",
+        "Quem vai utilizar o produto",
+        "O ponto de partida certo",
+        "Âmbito, prazos e próximos passos"
+      ],
+      "faqTitle": "Algumas perguntas frequentes.",
+      "faqs": [
+        [
+          "Podemos começar com um projeto pequeno?",
+          "Sim. Um site focado, um protótipo ou uma integração podem ser um bom início."
+        ],
+        [
+          "Podem trabalhar com os nossos sistemas?",
+          "Analisamos os sistemas atuais, os acessos e as opções de integração antes de propor um caminho."
+        ],
+        [
+          "Quem fica com o código e o design?",
+          "A propriedade, as licenças e a entrega são acordadas antes do início do projeto."
+        ],
+        [
+          "O que acontece depois do lançamento?",
+          "Podemos definir um plano de manutenção, alojamento e melhorias conforme as necessidades."
+        ]
+      ],
+      "demoNotice": "Interface ilustrativa com dados fictícios. Este conceito não é um sistema de cliente em produção.",
+      "demoTab": [
+        "Visão geral",
+        "Consultas"
+      ],
+      "demoFilter": [
+        "Todas as entregas",
+        "Em trânsito",
+        "Entregues"
+      ],
+      "demoClose": "Fechar conceito",
+      "demoBook": "Falar de um projeto semelhante",
+      "privacyTitle": "Privacidade,\ndesde o início.",
+      "privacyIntro": "Como este site trata as informações.",
+      "privacyBody": [
+        [
+          "Resumos de projeto",
+          "O formulário funciona no navegador. Preparar ou descarregar um resumo não nos envia dados. Ao escolher email ou WhatsApp, o serviço escolhido trata a mensagem."
+        ],
+        [
+          "Preferências do navegador",
+          "O site não usa ferramentas de análise nem cookies publicitários. As definições da interface limitam-se à página atual."
+        ],
+        [
+          "Alojamento",
+          "O fornecedor pode tratar informações técnicas para disponibilizar o site, de acordo com a sua própria política."
+        ],
+        [
+          "Informações da empresa",
+          "Este aviso deverá ser completado com a identidade final, os contactos e os serviços usados para receber pedidos."
+        ]
+      ],
+      "notFound": "Esta página está fora do mapa.",
+      "home": "Voltar ao início",
+      "techLabel": "À MEDIDA DO SEU NEGÓCIO",
+      "serviceAside": "Uma ideia. Muitas possibilidades.",
+      "demoNames": [
+        "Espaço da clínica",
+        "Gestão de frota"
+      ],
+      "navSolutions": "Soluções por setor"
+    }
+  },
+  "services": [
+    {
+      "slug": "websites",
+      "icon": "web",
+      "en": {
+        "name": "Websites & digital experiences",
+        "short": "Web & experiences",
+        "desc": "First impressions that open new possibilities. Fast, expressive websites and commerce experiences built around your brand.",
+        "items": [
+          "Company and brand websites",
+          "E-commerce and customer portals",
+          "Multilingual experiences",
+          "Content systems and search visibility"
+        ],
+        "tag": "YOUR DIGITAL FRONT DOOR"
+      },
+      "ar": {
+        "name": "المواقع والتجارب الرقمية",
+        "short": "المواقع والتجارب",
+        "desc": "انطباع أول يفتح فرصًا جديدة. مواقع ومتاجر سريعة ومعبرة، مصممة حول هوية شركتك.",
+        "items": [
+          "مواقع الشركات والعلامات التجارية",
+          "المتاجر وبوابات العملاء",
+          "تجارب متعددة اللغات",
+          "إدارة المحتوى والظهور في البحث"
+        ],
+        "tag": "بوابتك إلى العالم الرقمي"
+      },
+      "fr": {
+        "name": "Sites web et expériences numériques",
+        "short": "Sites et expériences",
+        "desc": "Des sites expressifs, rapides et adaptés à votre marque.",
+        "items": [
+          "Sites d’entreprise",
+          "Boutiques et portails clients",
+          "Expériences multilingues",
+          "Gestion de contenu et référencement"
+        ],
+        "tag": "VOTRE VITRINE NUMÉRIQUE"
+      },
+      "pt": {
+        "name": "Sites e experiências digitais",
+        "short": "Sites e experiências",
+        "desc": "Sites rápidos e expressivos, construídos em torno da sua marca.",
+        "items": [
+          "Sites empresariais",
+          "Lojas e portais de clientes",
+          "Experiências multilingues",
+          "Conteúdos e presença na pesquisa"
+        ],
+        "tag": "A SUA MONTRA DIGITAL"
+      }
+    },
+    {
+      "slug": "mobile-apps",
+      "icon": "mobile",
+      "en": {
+        "name": "Mobile applications",
+        "short": "Mobile applications",
+        "desc": "Useful, intuitive experiences that stay close to your customers. From the first tap to the moments that matter.",
+        "items": [
+          "iOS and Android applications",
+          "User experience and prototyping",
+          "Notifications and device integrations",
+          "Store launch and release planning"
+        ],
+        "tag": "IN YOUR CUSTOMERS’ HANDS"
+      },
+      "ar": {
+        "name": "تطبيقات الموبايل",
+        "short": "تطبيقات الموبايل",
+        "desc": "تجارب سهلة ومفيدة تبقى قريبة من عملائك، من اللمسة الأولى إلى اللحظات المهمة.",
+        "items": [
+          "تطبيقات iOS وAndroid",
+          "تجربة المستخدم والنماذج الأولية",
+          "الإشعارات وربط إمكانيات الجهاز",
+          "التجهيز للنشر وإدارة الإصدارات"
+        ],
+        "tag": "أقرب إلى عملائك"
+      },
+      "fr": {
+        "name": "Applications mobiles",
+        "short": "Applications mobiles",
+        "desc": "Des expériences simples et utiles, à portée de main.",
+        "items": [
+          "Applications iOS et Android",
+          "Prototypes et expérience utilisateur",
+          "Notifications et intégrations",
+          "Publication sur les stores"
+        ],
+        "tag": "PROCHE DE VOS CLIENTS"
+      },
+      "pt": {
+        "name": "Aplicações móveis",
+        "short": "Aplicações móveis",
+        "desc": "Experiências úteis e intuitivas, próximas dos clientes.",
+        "items": [
+          "Aplicações iOS e Android",
+          "Experiência e protótipos",
+          "Notificações e integrações",
+          "Publicação nas lojas"
+        ],
+        "tag": "NAS MÃOS DOS CLIENTES"
+      }
+    },
+    {
+      "slug": "business-systems",
+      "icon": "system",
+      "en": {
+        "name": "Business systems & platforms",
+        "short": "Business systems",
+        "desc": "Less friction. More clarity. Purpose-built software that connects your people, data and everyday operations.",
+        "items": [
+          "ERP and CRM solutions",
+          "Internal dashboards and workflows",
+          "Inventory and operational systems",
+          "Integrations and data migration"
+        ],
+        "tag": "BRING YOUR BUSINESS TOGETHER"
+      },
+      "ar": {
+        "name": "أنظمة ومنصات الأعمال",
+        "short": "أنظمة الأعمال",
+        "desc": "تعقيد أقل ووضوح أكبر. برمجيات مخصصة تربط فريقك وبياناتك وعملياتك اليومية.",
+        "items": [
+          "حلول إدارة الموارد والعملاء",
+          "لوحات التحكم ومسارات العمل",
+          "أنظمة المخزون والتشغيل",
+          "الربط بين الأنظمة ونقل البيانات"
+        ],
+        "tag": "أعمالك في صورة واحدة"
+      },
+      "fr": {
+        "name": "Systèmes et plateformes de gestion",
+        "short": "Systèmes de gestion",
+        "desc": "Reliez équipes, données et opérations dans un outil cohérent.",
+        "items": [
+          "Solutions ERP et CRM",
+          "Tableaux de bord et processus",
+          "Stocks et opérations",
+          "Intégrations et migration"
+        ],
+        "tag": "VOTRE ACTIVITÉ, CONNECTÉE"
+      },
+      "pt": {
+        "name": "Sistemas e plataformas de gestão",
+        "short": "Sistemas de gestão",
+        "desc": "Ligue pessoas, dados e operações com software à medida.",
+        "items": [
+          "Soluções ERP e CRM",
+          "Painéis e processos internos",
+          "Inventário e operações",
+          "Integrações e migração"
+        ],
+        "tag": "O NEGÓCIO, CONECTADO"
+      }
+    },
+    {
+      "slug": "cloud-hosting",
+      "icon": "cloud",
+      "en": {
+        "name": "Cloud & hosting",
+        "short": "Cloud & hosting",
+        "desc": "A strong foundation for everything you build. Hosting and infrastructure shaped around your performance and growth needs.",
+        "items": [
+          "Website and application hosting",
+          "Cloud architecture and deployment",
+          "Backup and recovery planning",
+          "Performance monitoring and optimisation"
+        ],
+        "tag": "A FOUNDATION FOR WHAT’S NEXT"
+      },
+      "ar": {
+        "name": "السحابة والاستضافة",
+        "short": "السحابة والاستضافة",
+        "desc": "أساس قوي لكل ما تبنيه. استضافة وبنية تقنية تتناسب مع احتياجات الأداء والنمو.",
+        "items": [
+          "استضافة المواقع والتطبيقات",
+          "تصميم البنية السحابية والنشر",
+          "خطط النسخ الاحتياطي والاستعادة",
+          "مراقبة الأداء وتحسينه"
+        ],
+        "tag": "أساس لخطوتك القادمة"
+      },
+      "fr": {
+        "name": "Cloud et hébergement",
+        "short": "Cloud et hébergement",
+        "desc": "Une infrastructure adaptée à vos besoins de performance et de croissance.",
+        "items": [
+          "Hébergement de sites et applications",
+          "Architecture cloud et déploiement",
+          "Sauvegardes et restauration",
+          "Suivi et optimisation"
+        ],
+        "tag": "UNE BASE POUR DEMAIN"
+      },
+      "pt": {
+        "name": "Cloud e alojamento",
+        "short": "Cloud e alojamento",
+        "desc": "Infraestrutura pensada para desempenho e crescimento.",
+        "items": [
+          "Alojamento de sites e aplicações",
+          "Arquitetura cloud e publicação",
+          "Cópias de segurança e recuperação",
+          "Monitorização e otimização"
+        ],
+        "tag": "BASES PARA O FUTURO"
+      }
+    },
+    {
+      "slug": "ai-automation",
+      "icon": "spark",
+      "en": {
+        "name": "AI & intelligent automation",
+        "short": "AI & automation",
+        "desc": "Make more room for meaningful work. Connect your tools, streamline repetitive tasks and explore practical uses of AI.",
+        "items": [
+          "Workflow and process automation",
+          "Knowledge assistants and search",
+          "Document and data processing",
+          "AI integration and human review flows"
+        ],
+        "tag": "MORE POSSIBILITY. LESS REPETITION."
+      },
+      "ar": {
+        "name": "الذكاء الاصطناعي والأتمتة",
+        "short": "الذكاء الاصطناعي والأتمتة",
+        "desc": "وقت أكبر للعمل المهم. نربط أدواتك ونبسط المهام المتكررة ونستكشف تطبيقات عملية للذكاء الاصطناعي.",
+        "items": [
+          "أتمتة العمليات ومسارات العمل",
+          "مساعدو المعرفة والبحث",
+          "معالجة المستندات والبيانات",
+          "دمج الذكاء الاصطناعي والمراجعة البشرية"
+        ],
+        "tag": "فرص أكثر. تكرار أقل."
+      },
+      "fr": {
+        "name": "IA et automatisation",
+        "short": "IA et automatisation",
+        "desc": "Simplifiez les tâches répétitives et explorez des usages concrets de l’IA.",
+        "items": [
+          "Automatisation des processus",
+          "Assistants de connaissances",
+          "Traitement documentaire",
+          "Intégration IA et validation humaine"
+        ],
+        "tag": "PLUS DE POSSIBILITÉS"
+      },
+      "pt": {
+        "name": "IA e automação inteligente",
+        "short": "IA e automação",
+        "desc": "Simplifique tarefas repetitivas e explore aplicações práticas da IA.",
+        "items": [
+          "Automação de processos",
+          "Assistentes de conhecimento",
+          "Tratamento de documentos",
+          "Integração de IA e revisão humana"
+        ],
+        "tag": "MAIS POSSIBILIDADES"
+      }
+    },
+    {
+      "slug": "support",
+      "icon": "support",
+      "en": {
+        "name": "Technology support & evolution",
+        "short": "Support & evolution",
+        "desc": "Launch is a beginning. Keep your technology healthy, your team supported and your next improvements moving.",
+        "items": [
+          "Maintenance and updates",
+          "Technical troubleshooting",
+          "Roadmaps and product improvements",
+          "Documented handover and team training"
+        ],
+        "tag": "WITH YOU BEYOND LAUNCH"
+      },
+      "ar": {
+        "name": "الدعم والتطوير المستمر",
+        "short": "الدعم والتطوير",
+        "desc": "الإطلاق بداية. نحافظ على كفاءة تقنياتك وندعم فريقك ونتحرك معك نحو التحسين التالي.",
+        "items": [
+          "الصيانة والتحديثات",
+          "حل المشكلات التقنية",
+          "خطط التطوير وتحسين المنتجات",
+          "تسليم موثق وتدريب الفريق"
+        ],
+        "tag": "معك بعد الإطلاق"
+      },
+      "fr": {
+        "name": "Support et évolution",
+        "short": "Support et évolution",
+        "desc": "Maintenez votre technologie et accompagnez les prochaines améliorations.",
+        "items": [
+          "Maintenance et mises à jour",
+          "Résolution des problèmes",
+          "Feuilles de route produit",
+          "Documentation et formation"
+        ],
+        "tag": "APRÈS LE LANCEMENT"
+      },
+      "pt": {
+        "name": "Apoio e evolução tecnológica",
+        "short": "Apoio e evolução",
+        "desc": "Mantenha a tecnologia saudável e prepare as próximas melhorias.",
+        "items": [
+          "Manutenção e atualizações",
+          "Resolução de problemas",
+          "Planos de evolução",
+          "Documentação e formação"
+        ],
+        "tag": "CONSIGO APÓS O LANÇAMENTO"
+      }
+    }
+  ],
+  "sectors": [
+    {
+      "slug": "healthcare",
+      "icon": "health",
+      "category": "people",
+      "en": {
+        "name": "Healthcare",
+        "title": "More time for care.\nLess time for paperwork.",
+        "desc": "Connect appointments, patient communication and clinic operations with software shaped around the way your team works.",
+        "items": [
+          "Appointment scheduling",
+          "Patient portals",
+          "Clinic operations",
+          "Reporting and integrations"
+        ]
+      },
+      "ar": {
+        "name": "الرعاية الصحية",
+        "title": "وقت أكبر للرعاية.\nوأقل للأوراق.",
+        "desc": "اربط المواعيد والتواصل مع المرضى وعمليات العيادة ببرمجيات تناسب طريقة عمل فريقك.",
+        "items": [
+          "تنظيم المواعيد",
+          "بوابات المرضى",
+          "عمليات العيادة",
+          "التقارير وربط الأنظمة"
+        ]
+      },
+      "fr": {
+        "name": "Santé",
+        "title": "Plus de temps pour soigner.\nMoins de paperasse.",
+        "desc": "Reliez rendez-vous, communication et opérations cliniques.",
+        "items": [
+          "Rendez-vous",
+          "Portails patients",
+          "Opérations cliniques",
+          "Rapports et intégrations"
+        ]
+      },
+      "pt": {
+        "name": "Saúde",
+        "title": "Mais tempo para cuidar.\nMenos burocracia.",
+        "desc": "Ligue consultas, comunicação e operações clínicas.",
+        "items": [
+          "Marcação de consultas",
+          "Portais de pacientes",
+          "Operações clínicas",
+          "Relatórios e integrações"
+        ]
+      }
+    },
+    {
+      "slug": "logistics",
+      "icon": "truck",
+      "category": "business",
+      "en": {
+        "name": "Logistics & transport",
+        "title": "Every move.\nA clearer view.",
+        "desc": "Bring vehicles, deliveries and customer updates into a connected operational experience.",
+        "items": [
+          "Fleet dashboards",
+          "Delivery workflows",
+          "Customer tracking portals",
+          "Route and dispatch integrations"
+        ]
+      },
+      "ar": {
+        "name": "النقل واللوجستيات",
+        "title": "كل حركة.\nفي صورة أوضح.",
+        "desc": "اجمع المركبات والشحنات وتحديثات العملاء في تجربة تشغيلية مترابطة.",
+        "items": [
+          "لوحات إدارة الأسطول",
+          "عمليات التوصيل",
+          "بوابات تتبع للعملاء",
+          "ربط المسارات وإدارة الإرسال"
+        ]
+      },
+      "fr": {
+        "name": "Logistique et transport",
+        "title": "Chaque mouvement.\nUne vue plus claire.",
+        "desc": "Connectez véhicules, livraisons et suivi client.",
+        "items": [
+          "Gestion de flotte",
+          "Processus de livraison",
+          "Portails de suivi",
+          "Itinéraires et expédition"
+        ]
+      },
+      "pt": {
+        "name": "Logística e transporte",
+        "title": "Cada movimento.\nUma visão mais clara.",
+        "desc": "Ligue veículos, entregas e atualizações aos clientes.",
+        "items": [
+          "Gestão de frota",
+          "Processos de entrega",
+          "Portais de acompanhamento",
+          "Rotas e expedição"
+        ]
+      }
+    },
+    {
+      "slug": "education",
+      "icon": "book",
+      "category": "people",
+      "en": {
+        "name": "Education",
+        "title": "Better connected.\nBetter learning.",
+        "desc": "Simplify the administration around learning, bringing students, families and educators closer.",
+        "items": [
+          "School management",
+          "Learning platforms",
+          "Parent communication",
+          "Admissions and payments"
+        ]
+      },
+      "ar": {
+        "name": "التعليم",
+        "title": "اتصال أفضل.\nوتعلم أفضل.",
+        "desc": "بسّط إدارة العملية التعليمية وقرّب الطلاب وأولياء الأمور والمعلمين.",
+        "items": [
+          "إدارة المدارس",
+          "منصات التعلم",
+          "التواصل مع أولياء الأمور",
+          "القبول والمدفوعات"
+        ]
+      },
+      "fr": {
+        "name": "Éducation",
+        "title": "Mieux connectés.\nPour mieux apprendre.",
+        "desc": "Simplifiez la gestion et rapprochez élèves, familles et enseignants.",
+        "items": [
+          "Gestion scolaire",
+          "Plateformes pédagogiques",
+          "Communication parents",
+          "Inscriptions et paiements"
+        ]
+      },
+      "pt": {
+        "name": "Educação",
+        "title": "Mais ligação.\nMais aprendizagem.",
+        "desc": "Simplifique a gestão e aproxime alunos, famílias e professores.",
+        "items": [
+          "Gestão escolar",
+          "Plataformas de aprendizagem",
+          "Comunicação com famílias",
+          "Inscrições e pagamentos"
+        ]
+      }
+    },
+    {
+      "slug": "commerce",
+      "icon": "bag",
+      "category": "business",
+      "en": {
+        "name": "Retail & commerce",
+        "title": "From discovery\nto the next order.",
+        "desc": "Make shopping feel effortless, while keeping your catalogues, orders and inventory connected.",
+        "items": [
+          "Online storefronts",
+          "Inventory management",
+          "Payment integrations",
+          "Customer engagement"
+        ]
+      },
+      "ar": {
+        "name": "التجارة والتجزئة",
+        "title": "من الاكتشاف\nإلى الطلب التالي.",
+        "desc": "اجعل التسوق أسهل، مع ربط المنتجات والطلبات والمخزون في تجربة متكاملة.",
+        "items": [
+          "المتاجر الإلكترونية",
+          "إدارة المخزون",
+          "ربط طرق الدفع",
+          "التواصل مع العملاء"
+        ]
+      },
+      "fr": {
+        "name": "Commerce",
+        "title": "De la découverte\nà la prochaine commande.",
+        "desc": "Reliez catalogues, commandes et stocks.",
+        "items": [
+          "Boutiques en ligne",
+          "Gestion des stocks",
+          "Intégrations de paiement",
+          "Relation client"
+        ]
+      },
+      "pt": {
+        "name": "Comércio",
+        "title": "Da descoberta\nà próxima encomenda.",
+        "desc": "Ligue catálogos, encomendas e inventário.",
+        "items": [
+          "Lojas online",
+          "Gestão de inventário",
+          "Integrações de pagamento",
+          "Relação com clientes"
+        ]
+      }
+    },
+    {
+      "slug": "hospitality",
+      "icon": "cup",
+      "category": "business",
+      "en": {
+        "name": "Hospitality",
+        "title": "A better experience.\nBefore they arrive.",
+        "desc": "Thoughtful digital touchpoints for restaurants, hotels and the people they welcome.",
+        "items": [
+          "Booking experiences",
+          "Digital menus",
+          "Ordering platforms",
+          "Guest communication"
+        ]
+      },
+      "ar": {
+        "name": "الضيافة والمطاعم",
+        "title": "تجربة أفضل.\nقبل الوصول.",
+        "desc": "نقاط تواصل رقمية مدروسة للمطاعم والفنادق وضيوفها.",
+        "items": [
+          "تجارب الحجز",
+          "القوائم الرقمية",
+          "منصات الطلب",
+          "التواصل مع الضيوف"
+        ]
+      },
+      "fr": {
+        "name": "Hôtellerie et restauration",
+        "title": "Une belle expérience.\nAvant même l’arrivée.",
+        "desc": "Des parcours numériques pour les restaurants, hôtels et leurs clients.",
+        "items": [
+          "Réservations",
+          "Cartes numériques",
+          "Plateformes de commande",
+          "Communication clients"
+        ]
+      },
+      "pt": {
+        "name": "Hotelaria e restauração",
+        "title": "Uma boa experiência.\nAntes da chegada.",
+        "desc": "Experiências digitais para restaurantes, hotéis e hóspedes.",
+        "items": [
+          "Reservas",
+          "Menus digitais",
+          "Plataformas de pedidos",
+          "Comunicação com hóspedes"
+        ]
+      }
+    },
+    {
+      "slug": "organisations",
+      "icon": "globe",
+      "category": "people",
+      "en": {
+        "name": "Organisations & impact",
+        "title": "Technology that\nserves your mission.",
+        "desc": "Tools that support field teams, connect programme information and make reporting clearer.",
+        "items": [
+          "Programme management",
+          "Field data collection",
+          "Volunteer coordination",
+          "Impact reporting"
+        ]
+      },
+      "ar": {
+        "name": "المؤسسات والعمل المجتمعي",
+        "title": "تقنية تدعم\nرسالتك.",
+        "desc": "أدوات تساعد فرق الميدان وتربط بيانات البرامج وتجعل التقارير أوضح.",
+        "items": [
+          "إدارة البرامج",
+          "جمع البيانات الميدانية",
+          "تنسيق المتطوعين",
+          "تقارير الأثر"
+        ]
+      },
+      "fr": {
+        "name": "Associations et impact",
+        "title": "La technologie\nau service de votre mission.",
+        "desc": "Soutenez les équipes terrain et simplifiez les rapports.",
+        "items": [
+          "Gestion de programmes",
+          "Collecte terrain",
+          "Bénévolat",
+          "Rapports d’impact"
+        ]
+      },
+      "pt": {
+        "name": "Organizações e impacto",
+        "title": "Tecnologia que\napoia a sua missão.",
+        "desc": "Apoie equipas de campo e simplifique relatórios.",
+        "items": [
+          "Gestão de programas",
+          "Recolha de dados",
+          "Coordenação de voluntários",
+          "Relatórios de impacto"
+        ]
+      }
+    },
+    {
+      "slug": "studios",
+      "icon": "web",
+      "category": "business",
+      "en": {
+        "name": "Photography & studios",
+        "title": "Your work.\nBeautifully delivered.",
+        "desc": "Connect session bookings, private galleries and client selections in one considered experience.",
+        "items": [
+          "Private client galleries",
+          "Session booking",
+          "Client selections and downloads",
+          "Studio administration"
+        ]
+      },
+      "ar": {
+        "name": "التصوير والاستوديوهات",
+        "title": "إبداعك.\nبتجربة تليق به.",
+        "desc": "اربط حجوزات الجلسات والمعارض الخاصة واختيارات العملاء في تجربة واحدة مدروسة.",
+        "items": [
+          "معارض خاصة للعملاء",
+          "حجز جلسات التصوير",
+          "اختيار الصور وتحميلها",
+          "إدارة الاستوديو"
+        ]
+      },
+      "fr": {
+        "name": "Photographie et studios",
+        "title": "Votre travail.\nUne livraison soignée.",
+        "desc": "Reliez réservations, galeries privées et sélections clients.",
+        "items": [
+          "Galeries privées",
+          "Réservation de séances",
+          "Sélections et téléchargements",
+          "Gestion de studio"
+        ]
+      },
+      "pt": {
+        "name": "Fotografia e estúdios",
+        "title": "O seu trabalho.\nBem apresentado.",
+        "desc": "Ligue marcações, galerias privadas e seleções dos clientes.",
+        "items": [
+          "Galerias privadas",
+          "Marcação de sessões",
+          "Seleções e transferências",
+          "Gestão do estúdio"
+        ]
+      }
+    },
+    {
+      "slug": "public-sector",
+      "icon": "system",
+      "category": "people",
+      "en": {
+        "name": "Public services",
+        "title": "Simpler services.\nCloser to people.",
+        "desc": "Accessible digital services that simplify applications, information and everyday requests.",
+        "items": [
+          "Public information portals",
+          "Online application workflows",
+          "Appointment systems",
+          "Accessible multilingual interfaces"
+        ]
+      },
+      "ar": {
+        "name": "الخدمات العامة",
+        "title": "خدمات أبسط.\nأقرب للناس.",
+        "desc": "خدمات رقمية ميسّرة تبسّط الطلبات والمعلومات والمعاملات اليومية.",
+        "items": [
+          "بوابات المعلومات العامة",
+          "مسارات تقديم الطلبات",
+          "أنظمة المواعيد",
+          "واجهات ميسّرة متعددة اللغات"
+        ]
+      },
+      "fr": {
+        "name": "Services publics",
+        "title": "Des services simples.\nPlus proches des citoyens.",
+        "desc": "Simplifiez informations, demandes et démarches.",
+        "items": [
+          "Portails publics",
+          "Demandes en ligne",
+          "Rendez-vous",
+          "Interfaces accessibles"
+        ]
+      },
+      "pt": {
+        "name": "Serviços públicos",
+        "title": "Serviços mais simples.\nMais próximos das pessoas.",
+        "desc": "Simplifique informações, candidaturas e pedidos.",
+        "items": [
+          "Portais públicos",
+          "Pedidos online",
+          "Marcações",
+          "Interfaces acessíveis"
+        ]
+      }
+    }
+  ],
+  "expansion": {
+    "en": {
+      "productsNav": "Platforms",
+      "workNav": "Work",
+      "languageLabel": "Choose language",
+      "platformEyebrow": "A CLEARER STARTING POINT",
+      "platformTitle": "Your next system.\nAlready taking shape.",
+      "platformDesc": "Explore a focused starting point for your business. We agree the available modules, integrations and delivery plan around your requirements.",
+      "platformLink": "Explore platforms",
+      "platformNote": "Scope and availability are confirmed for each project. Interface previews use sample data.",
+      "filterLabel": "Filter platforms by industry",
+      "results": "platforms shown",
+      "choose": "Discuss this platform",
+      "preview": "Try the interface",
+      "modules": "Suggested modules",
+      "industryTitle": "Your world.\nOur starting point.",
+      "industryDesc": "Find the tools and workflows that fit the way your industry operates.",
+      "workEyebrow": "SELECTED WORK",
+      "workTitle": "Real businesses.\nPurposeful technology.",
+      "workDesc": "A selection of projects across healthcare, hospitality, creative services and logistics.",
+      "workLink": "Explore our work",
+      "projectLabel": "Project scope",
+      "workCta": "Build something similar",
+      "workDescriptions": [
+        "A clinic management system connecting appointments and day-to-day operations.",
+        "A restaurant website, QR menu and WhatsApp ordering experience.",
+        "A studio website, administration dashboard and client gallery platform.",
+        "A digital presence for an air cargo company.",
+        "Senior Kofta is one of our restaurant clients."
+      ],
+      "workTags": [
+        [
+          "Business system",
+          "Clinic operations"
+        ],
+        [
+          "Website",
+          "Digital menu",
+          "Ordering"
+        ],
+        [
+          "Website",
+          "Client galleries",
+          "Dashboard"
+        ],
+        [
+          "Company website",
+          "Air cargo"
+        ],
+        [
+          "Restaurant client"
+        ]
+      ],
+      "productDescriptions": [
+        "Appointments, patient records, billing and branch workflows.",
+        "Shipments, vehicles, drivers and customer tracking in one operational view.",
+        "Admissions, fees, timetables and parent communication.",
+        "Private galleries, client selections and session bookings.",
+        "Field data, distributions and programme reporting.",
+        "Restaurant websites, QR menus and ordering flows.",
+        "Inventory, shipments, customers and trading operations."
+      ],
+      "productModules": [
+        [
+          "Scheduling",
+          "Patient records",
+          "Billing"
+        ],
+        [
+          "Fleet",
+          "Shipments",
+          "Tracking"
+        ],
+        [
+          "Admissions",
+          "Fees",
+          "Timetables"
+        ],
+        [
+          "Galleries",
+          "Selections",
+          "Bookings"
+        ],
+        [
+          "Field forms",
+          "Distributions",
+          "Reports"
+        ],
+        [
+          "Menus",
+          "Orders",
+          "Reservations"
+        ],
+        [
+          "Inventory",
+          "Shipments",
+          "Margins"
+        ]
+      ],
+      "africaTitle": "Built around\nreal-world conditions.",
+      "africaDesc": "Good technology fits the way people connect, pay and work. These requirements belong in the plan from day one.",
+      "africaFeatures": [
+        [
+          "Resilient connectivity",
+          "Offline collection and later synchronisation can be included for field workflows."
+        ],
+        [
+          "Local payments",
+          "Plan mobile money, card and bank integrations around your country and payment provider."
+        ],
+        [
+          "Languages that connect",
+          "English, Arabic, French and Portuguese, with clear layouts for every reading direction."
+        ],
+        [
+          "Hosting with context",
+          "Choose a hosting region, backups and access controls around your operational requirements."
+        ]
+      ],
+      "paymentsLabel": "Payment options to discuss",
+      "paymentsNote": "Availability depends on country, provider access and the agreed integration scope.",
+      "engagementTitle": "One conversation.\nThe right way forward.",
+      "engagement": [
+        [
+          "Custom build",
+          "A distinctive website, application or system shaped around your business."
+        ],
+        [
+          "Platform configuration",
+          "Start with a focused solution and agree the modules your team needs."
+        ],
+        [
+          "Specialist collaboration",
+          "Coordinate additional expertise for cloud, payments or complex integrations."
+        ]
+      ],
+      "partnerLabel": "Have a specialist capability?",
+      "partnerCta": "Discuss a collaboration",
+      "country": "Country / market",
+      "countryPlaceholder": "Where will this project operate?",
+      "solution": "Platform of interest",
+      "noSolution": "No platform selected",
+      "briefTitle": "PROJECT BRIEF",
+      "scopePrompt": "I would like to discuss",
+      "floating": "Discuss a project",
+      "localLabel": "Local perspective. Global possibilities.",
+      "globeAlt": "Sculptural globe with Africa encircled by an orange orbit",
+      "footerCta": "Your next big idea?",
+      "booking": "Book a call",
+      "clinicCategory": "HEALTHCARE / BUSINESS SYSTEMS",
+      "fleetCategory": "LOGISTICS / CUSTOM PLATFORMS"
+    },
+    "ar": {
+      "productsNav": "المنصات",
+      "workNav": "أعمالنا",
+      "languageLabel": "اختر اللغة",
+      "platformEyebrow": "نقطة بداية أوضح",
+      "platformTitle": "نظامك القادم.\nتبدأ ملامحه هنا.",
+      "platformDesc": "استكشف نقطة بداية تناسب أعمالك. نحدد الوحدات المتاحة والتكاملات وخطة التسليم وفق احتياجات مشروعك.",
+      "platformLink": "استكشف المنصات",
+      "platformNote": "يتحدد النطاق والتوافر لكل مشروع. معاينات الواجهات تستخدم بيانات تجريبية.",
+      "filterLabel": "تصفية المنصات حسب القطاع",
+      "results": "منصات معروضة",
+      "choose": "ناقش هذه المنصة",
+      "preview": "جرّب الواجهة",
+      "modules": "وحدات مقترحة",
+      "industryTitle": "عالمك.\nنقطة بدايتنا.",
+      "industryDesc": "اكتشف الأدوات ومسارات العمل التي تناسب طبيعة قطاعك.",
+      "workEyebrow": "من أعمالنا",
+      "workTitle": "أعمال حقيقية.\nتقنية لها هدف.",
+      "workDesc": "مشروعات في الرعاية الصحية والضيافة والخدمات الإبداعية واللوجستيات.",
+      "workLink": "اكتشف أعمالنا",
+      "projectLabel": "نطاق المشروع",
+      "workCta": "ابدأ مشروعًا مشابهًا",
+      "workDescriptions": [
+        "نظام لإدارة العيادات يربط المواعيد والعمليات اليومية.",
+        "موقع مطعم وقائمة QR وتجربة طلب عبر واتساب.",
+        "موقع استوديو ولوحة إدارة ومنصة معارض خاصة للعملاء.",
+        "حضور رقمي لشركة شحن جوي.",
+        "سنيور كفتة أحد عملائنا في قطاع المطاعم."
+      ],
+      "workTags": [
+        [
+          "نظام أعمال",
+          "إدارة العيادات"
+        ],
+        [
+          "موقع إلكتروني",
+          "قائمة رقمية",
+          "طلبات"
+        ],
+        [
+          "موقع إلكتروني",
+          "معارض عملاء",
+          "لوحة إدارة"
+        ],
+        [
+          "موقع شركة",
+          "شحن جوي"
+        ],
+        [
+          "عميل في قطاع المطاعم"
+        ]
+      ],
+      "productDescriptions": [
+        "المواعيد وملفات المرضى والفواتير وعمليات الفروع.",
+        "الشحنات والمركبات والسائقون وتتبع العملاء في صورة واحدة.",
+        "القبول والرسوم والجداول والتواصل مع أولياء الأمور.",
+        "معارض خاصة واختيارات العملاء وحجوزات الجلسات.",
+        "بيانات الميدان والتوزيعات وتقارير البرامج.",
+        "مواقع المطاعم وقوائم QR ومسارات الطلب.",
+        "المخزون والشحنات والعملاء والعمليات التجارية."
+      ],
+      "productModules": [
+        [
+          "المواعيد",
+          "ملفات المرضى",
+          "الفواتير"
+        ],
+        [
+          "الأسطول",
+          "الشحنات",
+          "التتبع"
+        ],
+        [
+          "القبول",
+          "الرسوم",
+          "الجداول"
+        ],
+        [
+          "المعارض",
+          "الاختيارات",
+          "الحجوزات"
+        ],
+        [
+          "نماذج ميدانية",
+          "التوزيعات",
+          "التقارير"
+        ],
+        [
+          "القوائم",
+          "الطلبات",
+          "الحجوزات"
+        ],
+        [
+          "المخزون",
+          "الشحنات",
+          "الهوامش"
+        ]
+      ],
+      "africaTitle": "تقنية تناسب\nواقع العمل.",
+      "africaDesc": "التقنية الجيدة تفهم كيف يتصل الناس ويدفعون ويعملون. نضع هذه الاحتياجات في الخطة من البداية.",
+      "africaFeatures": [
+        [
+          "اتصال أكثر مرونة",
+          "يمكن تضمين جمع البيانات دون اتصال ومزامنتها لاحقًا في مسارات العمل الميداني."
+        ],
+        [
+          "الدفع بالطريقة المحلية",
+          "نخطط لربط محافظ الموبايل والبطاقات والتحويلات وفق بلدك ومزود الدفع."
+        ],
+        [
+          "لغات تقرّب المسافات",
+          "العربية والإنجليزية والفرنسية والبرتغالية، بتخطيطات واضحة لكل اتجاه قراءة."
+        ],
+        [
+          "استضافة تناسب احتياجاتك",
+          "اختيار منطقة الاستضافة والنسخ الاحتياطي والصلاحيات وفق متطلبات التشغيل."
+        ]
+      ],
+      "paymentsLabel": "خيارات دفع نناقش ربطها",
+      "paymentsNote": "يعتمد التوافر على البلد وصلاحيات مزود الخدمة ونطاق الربط المتفق عليه.",
+      "engagementTitle": "حوار واحد.\nوطريق يناسبك.",
+      "engagement": [
+        [
+          "تطوير مخصص",
+          "موقع أو تطبيق أو نظام مميز يتشكل حول طبيعة عملك."
+        ],
+        [
+          "تهيئة منصة",
+          "ابدأ بحل محدد واتفق على الوحدات التي يحتاجها فريقك."
+        ],
+        [
+          "تعاون متخصص",
+          "تنسيق الخبرات الإضافية للسحابة والدفع والربط بين الأنظمة."
+        ]
+      ],
+      "partnerLabel": "لديك خبرة تقنية متخصصة؟",
+      "partnerCta": "ناقش فرصة تعاون",
+      "country": "البلد / السوق",
+      "countryPlaceholder": "أين سيعمل هذا المشروع؟",
+      "solution": "المنصة محل الاهتمام",
+      "noSolution": "لم تحدد منصة",
+      "briefTitle": "موجز المشروع",
+      "scopePrompt": "أرغب في مناقشة",
+      "floating": "ناقش مشروعك",
+      "localLabel": "رؤية محلية. إمكانيات عالمية.",
+      "globeAlt": "مجسم فني للكرة الأرضية يظهر أفريقيا محاطة بمدار برتقالي",
+      "footerCta": "فكرتك التالية؟",
+      "booking": "احجز مكالمة",
+      "clinicCategory": "الرعاية الصحية / أنظمة الأعمال",
+      "fleetCategory": "اللوجستيات / منصات مخصصة"
+    },
+    "fr": {
+      "productsNav": "Plateformes",
+      "workNav": "Réalisations",
+      "languageLabel": "Choisir la langue",
+      "platformEyebrow": "UN POINT DE DÉPART CLAIR",
+      "platformTitle": "Votre prochain système.\nIl prend forme ici.",
+      "platformDesc": "Explorez une solution adaptée à votre activité. Modules, intégrations et calendrier sont définis selon vos besoins.",
+      "platformLink": "Explorer les plateformes",
+      "platformNote": "Le périmètre et la disponibilité sont confirmés pour chaque projet. Les aperçus utilisent des données fictives.",
+      "filterLabel": "Filtrer par secteur",
+      "results": "plateformes affichées",
+      "choose": "Discuter de cette plateforme",
+      "preview": "Essayer l’interface",
+      "modules": "Modules proposés",
+      "industryTitle": "Votre univers.\nNotre point de départ.",
+      "industryDesc": "Des outils et des processus adaptés aux réalités de votre secteur.",
+      "workEyebrow": "NOS RÉALISATIONS",
+      "workTitle": "Des entreprises réelles.\nUne technologie utile.",
+      "workDesc": "Une sélection de projets dans la santé, la restauration, la création et la logistique.",
+      "workLink": "Voir nos réalisations",
+      "projectLabel": "Périmètre du projet",
+      "workCta": "Créer un projet similaire",
+      "workDescriptions": [
+        "Un système de gestion de cliniques reliant rendez-vous et opérations quotidiennes.",
+        "Un site de restaurant, une carte QR et un parcours de commande sur WhatsApp.",
+        "Un site de studio, un tableau de bord et une plateforme de galeries clients.",
+        "Une présence numérique pour une entreprise de fret aérien.",
+        "Senior Kofta compte parmi nos clients dans la restauration."
+      ],
+      "workTags": [
+        [
+          "Système de gestion",
+          "Cliniques"
+        ],
+        [
+          "Site web",
+          "Carte numérique",
+          "Commandes"
+        ],
+        [
+          "Site web",
+          "Galeries clients",
+          "Tableau de bord"
+        ],
+        [
+          "Site d’entreprise",
+          "Fret aérien"
+        ],
+        [
+          "Client restauration"
+        ]
+      ],
+      "productDescriptions": [
+        "Rendez-vous, dossiers patients, facturation et gestion des établissements.",
+        "Expéditions, véhicules, conducteurs et suivi client dans une seule vue.",
+        "Inscriptions, frais, emplois du temps et communication avec les parents.",
+        "Galeries privées, sélections clients et réservations de séances.",
+        "Données terrain, distributions et rapports de programmes.",
+        "Sites de restaurants, cartes QR et parcours de commande.",
+        "Stocks, expéditions, clients et opérations commerciales."
+      ],
+      "productModules": [
+        [
+          "Rendez-vous",
+          "Dossiers patients",
+          "Facturation"
+        ],
+        [
+          "Flotte",
+          "Expéditions",
+          "Suivi"
+        ],
+        [
+          "Inscriptions",
+          "Frais",
+          "Emplois du temps"
+        ],
+        [
+          "Galeries",
+          "Sélections",
+          "Réservations"
+        ],
+        [
+          "Formulaires terrain",
+          "Distributions",
+          "Rapports"
+        ],
+        [
+          "Cartes",
+          "Commandes",
+          "Réservations"
+        ],
+        [
+          "Stocks",
+          "Expéditions",
+          "Marges"
+        ]
+      ],
+      "africaTitle": "Pensé pour\nles réalités du terrain.",
+      "africaDesc": "Une bonne technologie respecte les façons de se connecter, de payer et de travailler. Nous les intégrons dès le départ.",
+      "africaFeatures": [
+        [
+          "Connexion résiliente",
+          "La collecte hors ligne et la synchronisation différée peuvent être prévues pour les équipes terrain."
+        ],
+        [
+          "Paiements locaux",
+          "Prévoyez les intégrations mobile money, cartes et virements selon le pays et le prestataire."
+        ],
+        [
+          "Des langues qui rapprochent",
+          "Anglais, arabe, français et portugais, avec une mise en page adaptée à chaque sens de lecture."
+        ],
+        [
+          "Hébergement adapté",
+          "Région d’hébergement, sauvegardes et droits d’accès définis selon vos besoins opérationnels."
+        ]
+      ],
+      "paymentsLabel": "Options de paiement à étudier",
+      "paymentsNote": "La disponibilité dépend du pays, de l’accès au prestataire et du périmètre convenu.",
+      "engagementTitle": "Un échange.\nLa bonne direction.",
+      "engagement": [
+        [
+          "Développement sur mesure",
+          "Un site, une application ou un système conçu autour de votre activité."
+        ],
+        [
+          "Configuration de plateforme",
+          "Une solution ciblée et des modules choisis avec votre équipe."
+        ],
+        [
+          "Collaboration spécialisée",
+          "Coordonner les expertises complémentaires pour le cloud, les paiements et les intégrations."
+        ]
+      ],
+      "partnerLabel": "Une expertise spécialisée à partager ?",
+      "partnerCta": "Parlons collaboration",
+      "country": "Pays / marché",
+      "countryPlaceholder": "Où ce projet sera-t-il utilisé ?",
+      "solution": "Plateforme souhaitée",
+      "noSolution": "Aucune plateforme sélectionnée",
+      "briefTitle": "NOTE DE PROJET",
+      "scopePrompt": "Je souhaite discuter de",
+      "floating": "Parlons de votre projet",
+      "localLabel": "Une vision locale. Des possibilités mondiales.",
+      "globeAlt": "Globe sculptural montrant l’Afrique entourée d’une orbite orange",
+      "footerCta": "Votre prochaine idée ?",
+      "booking": "Réserver un appel",
+      "clinicCategory": "SANTÉ / SYSTÈMES DE GESTION",
+      "fleetCategory": "LOGISTIQUE / PLATEFORMES SUR MESURE"
+    },
+    "pt": {
+      "productsNav": "Plataformas",
+      "workNav": "Projetos",
+      "languageLabel": "Escolher idioma",
+      "platformEyebrow": "UM PONTO DE PARTIDA CLARO",
+      "platformTitle": "O seu próximo sistema.\nComeça a ganhar forma.",
+      "platformDesc": "Explore uma solução para o seu negócio. Definimos módulos, integrações e prazos de acordo com os requisitos do projeto.",
+      "platformLink": "Explorar plataformas",
+      "platformNote": "O âmbito e a disponibilidade são confirmados para cada projeto. As pré-visualizações usam dados fictícios.",
+      "filterLabel": "Filtrar plataformas por setor",
+      "results": "plataformas apresentadas",
+      "choose": "Falar sobre esta plataforma",
+      "preview": "Experimentar a interface",
+      "modules": "Módulos sugeridos",
+      "industryTitle": "O seu mundo.\nO nosso ponto de partida.",
+      "industryDesc": "Ferramentas e processos adequados à realidade do seu setor.",
+      "workEyebrow": "PROJETOS SELECIONADOS",
+      "workTitle": "Negócios reais.\nTecnologia com propósito.",
+      "workDesc": "Uma seleção de projetos nas áreas da saúde, restauração, criação e logística.",
+      "workLink": "Ver os nossos projetos",
+      "projectLabel": "Âmbito do projeto",
+      "workCta": "Criar um projeto semelhante",
+      "workDescriptions": [
+        "Um sistema de gestão de clínicas que liga consultas e operações diárias.",
+        "Um site de restaurante, menu QR e pedidos através do WhatsApp.",
+        "Um site de estúdio, painel de gestão e plataforma de galerias para clientes.",
+        "Uma presença digital para uma empresa de carga aérea.",
+        "Senior Kofta é um dos nossos clientes na restauração."
+      ],
+      "workTags": [
+        [
+          "Sistema de gestão",
+          "Clínicas"
+        ],
+        [
+          "Site",
+          "Menu digital",
+          "Pedidos"
+        ],
+        [
+          "Site",
+          "Galerias de clientes",
+          "Painel de gestão"
+        ],
+        [
+          "Site empresarial",
+          "Carga aérea"
+        ],
+        [
+          "Cliente de restauração"
+        ]
+      ],
+      "productDescriptions": [
+        "Consultas, fichas de pacientes, faturação e gestão de unidades.",
+        "Envios, veículos, motoristas e acompanhamento numa única vista.",
+        "Inscrições, propinas, horários e comunicação com encarregados de educação.",
+        "Galerias privadas, seleções de clientes e marcação de sessões.",
+        "Dados de campo, distribuições e relatórios de programas.",
+        "Sites de restaurantes, menus QR e processos de encomenda.",
+        "Inventário, envios, clientes e operações comerciais."
+      ],
+      "productModules": [
+        [
+          "Consultas",
+          "Fichas de pacientes",
+          "Faturação"
+        ],
+        [
+          "Frota",
+          "Envios",
+          "Acompanhamento"
+        ],
+        [
+          "Inscrições",
+          "Propinas",
+          "Horários"
+        ],
+        [
+          "Galerias",
+          "Seleções",
+          "Marcações"
+        ],
+        [
+          "Formulários de campo",
+          "Distribuições",
+          "Relatórios"
+        ],
+        [
+          "Menus",
+          "Pedidos",
+          "Reservas"
+        ],
+        [
+          "Inventário",
+          "Envios",
+          "Margens"
+        ]
+      ],
+      "africaTitle": "Feito para\na realidade do trabalho.",
+      "africaDesc": "A boa tecnologia adapta-se à forma como as pessoas se ligam, pagam e trabalham. Planeamos essas necessidades desde o início.",
+      "africaFeatures": [
+        [
+          "Ligação resiliente",
+          "A recolha offline e a sincronização posterior podem fazer parte dos processos de campo."
+        ],
+        [
+          "Pagamentos locais",
+          "Planeie integrações de dinheiro móvel, cartões e transferências conforme o país e o fornecedor."
+        ],
+        [
+          "Idiomas que aproximam",
+          "Inglês, árabe, francês e português, com layouts adequados a cada direção de leitura."
+        ],
+        [
+          "Alojamento adequado",
+          "Escolha a região, as cópias de segurança e os acessos conforme as necessidades operacionais."
+        ]
+      ],
+      "paymentsLabel": "Opções de pagamento a avaliar",
+      "paymentsNote": "A disponibilidade depende do país, do acesso ao fornecedor e do âmbito acordado.",
+      "engagementTitle": "Uma conversa.\nO caminho certo.",
+      "engagement": [
+        [
+          "Desenvolvimento à medida",
+          "Um site, aplicação ou sistema pensado para o seu negócio."
+        ],
+        [
+          "Configuração de plataforma",
+          "Comece com uma solução focada e escolha os módulos de que a equipa precisa."
+        ],
+        [
+          "Colaboração especializada",
+          "Coordenar competências adicionais para cloud, pagamentos e integrações complexas."
+        ]
+      ],
+      "partnerLabel": "Tem uma especialidade tecnológica?",
+      "partnerCta": "Falar sobre colaboração",
+      "country": "País / mercado",
+      "countryPlaceholder": "Onde vai funcionar este projeto?",
+      "solution": "Plataforma de interesse",
+      "noSolution": "Nenhuma plataforma selecionada",
+      "briefTitle": "RESUMO DO PROJETO",
+      "scopePrompt": "Gostaria de falar sobre",
+      "floating": "Fale sobre o seu projeto",
+      "localLabel": "Perspetiva local. Possibilidades globais.",
+      "globeAlt": "Globo escultural com África rodeada por uma órbita laranja",
+      "footerCta": "A sua próxima grande ideia?",
+      "booking": "Marcar uma chamada",
+      "clinicCategory": "SAÚDE / SISTEMAS DE GESTÃO",
+      "fleetCategory": "LOGÍSTICA / PLATAFORMAS À MEDIDA"
+    }
+  },
+  "motionCopy": {
+    "en": {
+      "eyebrow": "FROM THE FIRST LINE TO THE FINAL EXPERIENCE",
+      "title": "Ideas, brought\nto life.",
+      "intro": "A pencil stroke becomes a digital experience. Discover the stories behind our work.",
+      "draw": "Sketch",
+      "build": "Create",
+      "reveal": "Reveal",
+      "replay": "Replay story",
+      "pause": "Pause motion",
+      "play": "Play motion",
+      "next": "Next story",
+      "previous": "Previous story",
+      "view": "Discuss a similar project",
+      "partners": "Our partners",
+      "partnerIntro": "The people and technologies we work with.",
+      "client": "Client",
+      "stories": [
+        "A beautiful experience, revealed.",
+        "A website ready for takeoff.",
+        "From the table to the screen.",
+        "A little appetite. A big idea.",
+        "Every frame tells a story."
+      ],
+      "senior": "Senior Kofta is one of our restaurant clients.",
+      "storyLabel": "Project story",
+      "previewNote": "Creative project presentation"
+    },
+    "ar": {
+      "eyebrow": "من أول خط إلى تجربة متكاملة",
+      "title": "أفكارنا.\nتدبّ فيها الحياة.",
+      "intro": "خط بالقلم يتحول لتجربة رقمية. اكتشف الحكاية وراء كل مشروع.",
+      "draw": "نرسم",
+      "build": "نبتكر",
+      "reveal": "نكشف",
+      "replay": "أعد المشهد",
+      "pause": "إيقاف الحركة",
+      "play": "تشغيل الحركة",
+      "next": "المشهد التالي",
+      "previous": "المشهد السابق",
+      "view": "ناقش مشروعًا مشابهًا",
+      "partners": "شركاؤنا",
+      "partnerIntro": "الجهات والتقنيات التي نتعاون معها.",
+      "client": "عميل",
+      "stories": [
+        "تجربة جميلة، تنكشف أمامك.",
+        "موقع يستعد للإقلاع.",
+        "من الترابيزة إلى الشاشة.",
+        "شهية مفتوحة. وفكرة كبيرة.",
+        "كل كادر يحكي حكاية."
+      ],
+      "senior": "سنيور كفتة أحد عملائنا في قطاع المطاعم.",
+      "storyLabel": "حكاية مشروع",
+      "previewNote": "عرض إبداعي للمشروع"
+    },
+    "fr": {
+      "eyebrow": "DU PREMIER TRAIT À L’EXPÉRIENCE",
+      "title": "Des idées\nqui prennent vie.",
+      "intro": "Un trait de crayon devient une expérience numérique. Découvrez nos projets en mouvement.",
+      "draw": "Dessiner",
+      "build": "Créer",
+      "reveal": "Révéler",
+      "replay": "Rejouer",
+      "pause": "Suspendre les animations",
+      "play": "Activer les animations",
+      "next": "Scène suivante",
+      "previous": "Scène précédente",
+      "view": "Parlons d’un projet similaire",
+      "partners": "Nos partenaires",
+      "partnerIntro": "Les équipes et technologies avec lesquelles nous collaborons.",
+      "client": "Client",
+      "stories": [
+        "Une belle expérience se dévoile.",
+        "Un site prêt à décoller.",
+        "De la table à l’écran.",
+        "Un bel appétit. Une grande idée.",
+        "Chaque image raconte une histoire."
+      ],
+      "senior": "Senior Kofta compte parmi nos clients dans la restauration.",
+      "storyLabel": "Histoire du projet",
+      "previewNote": "Présentation créative du projet"
+    },
+    "pt": {
+      "eyebrow": "DO PRIMEIRO TRAÇO À EXPERIÊNCIA",
+      "title": "Ideias\nque ganham vida.",
+      "intro": "Um traço de lápis transforma-se numa experiência digital. Conheça os nossos projetos em movimento.",
+      "draw": "Desenhar",
+      "build": "Criar",
+      "reveal": "Revelar",
+      "replay": "Repetir cena",
+      "pause": "Pausar animações",
+      "play": "Ativar animações",
+      "next": "Próxima cena",
+      "previous": "Cena anterior",
+      "view": "Falar de um projeto semelhante",
+      "partners": "Os nossos parceiros",
+      "partnerIntro": "As equipas e tecnologias com que colaboramos.",
+      "client": "Cliente",
+      "stories": [
+        "Uma bela experiência revelada.",
+        "Um site pronto para descolar.",
+        "Da mesa para o ecrã.",
+        "Bom apetite. Uma grande ideia.",
+        "Cada imagem conta uma história."
+      ],
+      "senior": "Senior Kofta é um dos nossos clientes na restauração.",
+      "storyLabel": "História do projeto",
+      "previewNote": "Apresentação criativa do projeto"
+    }
+  }
+}

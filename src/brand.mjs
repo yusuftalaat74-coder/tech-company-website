@@ -1,8 +1,10 @@
+import {defaultMotion} from './motion-content.mjs';
 // Duplicate this file for each company, then build with BRAND_FILE=src/your-brand.mjs.
 export default {
   name: 'AFRICA TECH',
+  motion: defaultMotion,
   shortName: 'AT',
-  portfolio: ['Queen Secret', 'Wimbi', 'Switx Visions', 'West Wings'], // Clear when cloning for another company.
+  portfolio: ['Queen Secret', 'Wimbi', 'Switx Visions', 'West Wings', 'Senior Kofta'], // Clear when cloning for another company.
   accent: '#d64520',
   accentBright: '#f15a2b',
   surface: '#f5f4ef',

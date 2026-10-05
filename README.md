@@ -125,3 +125,19 @@ The site now builds 88 pages across English, Arabic (RTL), French and Portuguese
 - Country and platform fields are included in the downloadable brief. No enquiry is transmitted unless an actual contact integration is configured.
 
 Edit `src/expansion.mjs` for platform/portfolio copy, `src/locales.mjs` for French and Portuguese, and `src/demo-copy.mjs` for interactive demo translations. Clear or replace `portfolio` in the brand file when reusing the site for another company. Configure the real email, WhatsApp number or booking URL in `src/brand.mjs` to activate those contact channels.
+
+
+## Motion studio and local dashboard
+
+Run `npm run admin` and open `http://127.0.0.1:4188/admin/`. The dashboard is **local only**, not a publicly accessible login system. It edits the company identity, colours, contact details, four-language copy, service/sector copy, motion settings, project scenes and partner logos. Saving writes `content/site.json` and rebuilds the real preview; publishing commits and pushes the configured GitHub repository. Authenticated Git access on the computer is required to publish. The dashboard never asks for or sends GitHub credentials to the browser.
+
+- Uploaded PNG/JPEG/WebP assets are saved under `assets/uploads/`; SVG and unrecognised uploads are rejected. Maximum upload size: 6 MB.
+- Automatic content backups are kept in `.admin-backups/`, outside the published site and ignored by Git.
+- The HTTP server binds only to 127.0.0.1, checks Host/Origin and a per-process request token, and serializes saves/publications. Do not expose it through a public tunnel.
+- `admin/`, content editing endpoints and backups are not copied to `dist/` or GitHub Pages.
+- No partner names/logos are pre-populated. The partner section remains hidden until valid partner entries are enabled.
+- Five illustrative client motion stories are provided, including Senior Kofta. The restaurant/client presentations are creative compositions, not screenshots or claims about specific delivered functionality. An uploaded project screenshot replaces the composition.
+- Continuous canvas globe and independently orbiting markers use Natural Earth land points. Scenes pause when out of view; the globe suspends rendering in hidden tabs. Visitors can pause motion and reduced-motion preferences are honoured.
+- The globe, scene copy and pace can be changed in the dashboard. Scenes can be added, reordered, hidden and assigned a new preview image.
+
+An online dashboard with password-protected server persistence has **not** been deployed. GitHub Pages cannot run this editing server. A separate authenticated backend and hosting configuration are required for online administration.

@@ -1,3 +1,6 @@
+import {motionCopy} from '../src/motion-content.mjs';
+import {loadContent,validateContent} from './content-store.mjs';
+import {expansion} from '../src/expansion.mjs';
 import {createHash} from 'node:crypto';
 import {mkdir,writeFile,cp,rm,readFile} from 'node:fs/promises';
 import path from 'node:path';
@@ -5,13 +8,14 @@ import {pathToFileURL} from 'node:url';
 import {page,esc} from '../src/templates.mjs';
 import {services,sectors,ui} from '../src/content.mjs';
 const brandPath=path.resolve(process.env.BRAND_FILE||'src/brand.mjs');
-const {default:brand}=await import(pathToFileURL(brandPath));
+let {default:brand}=await import(pathToFileURL(brandPath));
+if(!process.env.BRAND_FILE){const content=validateContent(await loadContent());brand=content.brand;Object.assign(ui,content.ui);Object.assign(expansion,content.expansion);Object.assign(motionCopy,content.motionCopy||{});services.splice(0,services.length,...content.services);sectors.splice(0,sectors.length,...content.sectors);}
 if(!brand.name||!Array.isArray(brand.locales)||brand.locales.some(l=>!ui[l]))throw Error('Invalid brand configuration');
 for(const key of ['accent','accentBright','surface','ink'])if(!/^#[a-f0-9]{6}$/i.test(brand[key]))throw Error(`Invalid color: ${key}`);
 if(brand.email&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(brand.email))throw Error('Invalid enquiry email');
 if(brand.whatsapp&&!/^\d{7,15}$/.test(brand.whatsapp))throw Error('WhatsApp must be international digits only');
 for(const key of ['siteUrl','bookingUrl'])if(brand[key]&&!/^https:\/\//.test(brand[key]))throw Error(`${key} must use HTTPS`);
-const assetVersion=createHash('sha256').update(await readFile('assets/app.js')).update(await readFile('assets/style.css')).digest('hex').slice(0,12);
+const assetVersion=createHash('sha256').update(await readFile('assets/app.js')).update(await readFile('assets/style.css')).update(await readFile('assets/motion.js')).update(await readFile('assets/motion.css')).digest('hex').slice(0,12);
 const routes=['','services',...services.map(s=>'services/'+s.slug),'solutions',...sectors.map(s=>'solutions/'+s.slug),'platforms','work','studio','contact','privacy'];
 await rm('dist',{recursive:true,force:true});await mkdir('dist/assets',{recursive:true});
 await cp('assets','dist/assets',{recursive:true,filter:source=>!source.endsWith('.png')});
