@@ -11,11 +11,6 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!nav.hidden){closeM
 window.addEventListener('resize',()=>{if(innerWidth>900)closeMenu();});
 $$('a',nav).forEach(a=>a.addEventListener('click',closeMenu));
 $('.back-top').addEventListener('click',()=>window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));
-if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
- document.documentElement.classList.add('js-motion');
- const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target);}}),{threshold:.07});
- $$('.reveal').forEach(el=>observer.observe(el));
-}
 const dialog=$('#concept-dialog');let lastDemoTrigger=null;
 const clinicRows=['09:00','09:30','10:00','10:30'].map((time,i)=>[time,(ar?['أمارا ك.','ثيو م.','لينا ن.','آدم س.']:['Amara K.','Theo M.','Lina N.','Adam S.'])[i],d.visits[i%2],d.statuses[i===0?0:1]]);
 const fleetRows=['DL-028','DL-029','DL-030','DL-031'].map((id,i)=>[id,d.routes[i],d.vehicle+' '+['04','07','12','02'][i],i%2?'delivered':'transit']);

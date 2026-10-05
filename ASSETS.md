@@ -28,3 +28,10 @@ The clinic and fleet previews are original HTML/CSS interface compositions. All 
 - Land-point geometry derived from Natural Earth 1:110m land polygons (public domain): https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson . Converted to lightweight lon/lat dots in `assets/motion/land.json`.
 - Plane and cargo artwork reused from the user's West Wings project; Queen Secret hero artwork reused from the user's Queen Secret project. Source originals retained in their project directories; WebP delivery copies used here.
 - Website preview from the actual AFRICA TECH local preview. Presenter, diner and camera are original SVG/CSS illustrations.
+
+## October 5 motion revision
+- `assets/motion/africa-page.webp`: captured from the local AFRICA TECH home page.
+- `assets/motion/queen-page.webp`: captured from the user-owned Queen Secret local preview, hero and services.
+- `assets/motion/cargo-page.webp`: captured from the user-owned West Wings public site.
+- Page captures are combined for a scrolling portfolio preview; no enquiries or customer data are captured.
+- `assets/vendor/motion-14.0.0.js`: official npm `motion@14.0.0` browser distribution, MIT license alongside the bundle.
