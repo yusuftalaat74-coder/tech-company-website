@@ -119,7 +119,7 @@ The site now builds 88 pages across English, Arabic (RTL), French and Portuguese
 
 - Seven platform profiles with industry filters and links that preselect the platform in the project brief.
 - Eight industry pages, including photography studios and public services.
-- Approved portfolio: Queen Secret, Wimbi, Switx Visions and West Wings. Text and abstract project artwork describe scope; they are not screenshots of customer systems.
+- Approved portfolio: Queen Secret, Wimbi, Switx Visions and West Wings. Front-page captures show the actual project websites; projects awaiting a capture retain their text presentation.
 - Local payment planning, offline workflow options, language support and hosting considerations. These are project capabilities, not active payment integrations or compliance certifications.
 - Clinic and fleet interface concepts remain explicitly labelled as illustrative sample data.
 - Country and platform fields are included in the downloadable brief. No enquiry is transmitted unless an actual contact integration is configured.
@@ -136,9 +136,9 @@ Run `npm run admin` and open `http://127.0.0.1:4188/admin/`. The dashboard is **
 - The HTTP server binds only to 127.0.0.1, checks Host/Origin and a per-process request token, and serializes saves/publications. Do not expose it through a public tunnel.
 - `admin/`, content editing endpoints and backups are not copied to `dist/` or GitHub Pages.
 - No partner names/logos are pre-populated. The partner section remains hidden until valid partner entries are enabled.
-- Three compact motion cards sit side by side: an irregular 180 ms pencil scribble reveals AFRICA TECH, a fashion figure pushes Queen Secret with a two-joint gait and planted stance foot, and the original West Wings aircraft tows its site in, releases the rope and banks away. The cards form an infinite carousel with a six-second auto advance, touch/mouse dragging, previous/next and a dedicated pause button. Auto advance pauses while interacting, off screen, in hidden tabs and when reduced motion is enabled. There are no scene captions. The previews use captured project pages, slowly scrolling inside their browser frames. Uploaded screenshots replace these defaults. Motion 14.0.0 is self-hosted under assets/vendor with its MIT license; it powers section entrances, spring hover/press feedback, menu/dialog entrances, progress and scene choreography.
-- Continuous canvas globe and independently orbiting markers use Natural Earth land points. Scenes pause when out of view; the globe suspends rendering in hidden tabs. Visitors can pause motion and reduced-motion preferences are honoured.
-- The dashboard controls the globe, repetition interval and preview images. The triptych selects the first enabled beauty scene and flight scene alongside the AFRICA TECH card. Other stored scene types are retained for future layouts; the client portfolio still includes all five clients.
+- Compact motion cards form an infinite, draggable carousel. A 180 ms scribble reveals AFRICA TECH, a line stick man pushes Queen Secret with planted-foot inverse kinematics, and the original West Wings plane tows its site and banks away. Other enabled scenes with screenshots follow in dashboard order. Each preview shows the entire front-page capture without scrolling its contents. The portfolio uses the same screenshots.
+- Self-hosted Motion 14 powers section entrances, spring hover/press, icon drawing and ambient motion, keyboard focus feedback, FAQ/menu/dialog reveals, progress and scene choreography. The lower wire globe has rotating meridians and orbit markers; the hero canvas globe continues rotating independently.
+- Global pause and reduced-motion preferences are respected. Ambient details, scenes and carousel updates pause outside the viewport and in hidden tabs. The local dashboard controls globe/orbit settings, speed, cycle duration, ordering and project screenshots. Scenes without a default or uploaded capture wait for an image before appearing in the carousel.
 
 An online dashboard with password-protected server persistence has **not** been deployed. GitHub Pages cannot run this editing server. A separate authenticated backend and hosting configuration are required for online administration.
 

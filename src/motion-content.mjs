@@ -7,7 +7,7 @@ export const motionCopy={
 export const defaultMotion={enabled:true,globe:true,orbits:true,stories:true,duration:14,globeSpeed:1,partners:[],scenes:[
  {id:'queen',name:'Queen Secret',type:'beauty',enabled:true,color:'#9d6f78',url:'',image:'',descriptionIndex:0},
  {id:'west',name:'West Wings',type:'flight',enabled:true,color:'#294b5b',url:'https://westwingscargo.com/',image:'',descriptionIndex:1},
- {id:'wimbi',name:'Wimbi',type:'dining',enabled:true,color:'#997b37',url:'',image:'',descriptionIndex:2},
+ {id:'wimbi',name:'Wimbi',type:'dining',enabled:true,color:'#997b37',url:'https://wimbi.yusuftalaat.tech/pt',image:'',descriptionIndex:2},
  {id:'kofta',name:'Senior Kofta',type:'dining',enabled:true,color:'#a74028',url:'',image:'',descriptionIndex:3},
- {id:'switx',name:'Switx Visions',type:'studio',enabled:true,color:'#47604b',url:'',image:'',descriptionIndex:4}
+ {id:'switx',name:'Switx Visions',type:'studio',enabled:true,color:'#47604b',url:'https://switxvisions.com/',image:'',descriptionIndex:4}
 ]};

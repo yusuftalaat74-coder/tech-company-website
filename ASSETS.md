@@ -37,3 +37,9 @@ The clinic and fleet previews are original HTML/CSS interface compositions. All 
 - `assets/vendor/motion-14.0.0.js`: official npm `motion@14.0.0` browser distribution, MIT license alongside the bundle.
 
 - `assets/motion/westwings-plane.webp`: original top-down aircraft from the user-owned West Wings `app/public/air/top.webp`. The towing/release choreography follows that project’s `Towed` component.
+
+## Front-page portfolio revision
+- `africa-front.webp`, `queen-front.webp`, `cargo-front.webp`: single first-viewport captures of the existing AFRICA TECH, Queen Secret and West Wings sites, replacing the combined scrolling captures in the current UI.
+- `wimbi-front.webp`: captured from https://wimbi.yusuftalaat.tech/pt at 1280 × 800.
+- `switx-front.webp`: captured from https://switxvisions.com/ at 1280 × 800.
+- Stick figure: original unfilled SVG line drawing, animated with the existing two-link gait geometry.
