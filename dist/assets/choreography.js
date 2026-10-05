@@ -50,6 +50,52 @@ document.querySelectorAll('.catalog-filters button').forEach(button=>button.addE
 const demoContent=document.querySelector('#demo-content');
 if(demoContent)new MutationObserver(()=>{if(dialog?.open&&!disabled())track(demoContent,{opacity:[0,1],y:[8,0]},{duration:.25});}).observe(demoContent,{childList:true});
 hover('.brand',el=>{const mark=el.querySelector('.brand-mark');if(!mark||disabled())return;track(mark,{rotate:78},{type:'spring',stiffness:160,damping:14});return()=>{if(!disabled())track(mark,{rotate:-12},{type:'spring',stiffness:160,damping:14});};});
+// Native scrolling keeps dragging and touch independent of the illustration timelines.
+document.querySelectorAll('[data-carousel]').forEach(section=>{
+ const grid=section.querySelector('.motion-grid'),originals=[...grid.children],count=originals.length;
+ if(count<2){section.querySelector('.carousel-controls').hidden=true;return;}
+ originals.forEach(tile=>{const clone=tile.cloneNode(true);clone.dataset.clone='';clone.setAttribute('aria-hidden','true');clone.tabIndex=-1;clone.querySelectorAll('a,button').forEach(el=>el.tabIndex=-1);grid.append(clone);});
+ let index=0,localPause=false,visible=false,hovered=false,focused=false,busy=false,drag=null,dragged=false,release,lastInteraction=0,touching=false;
+ const step=()=>originals[0].getBoundingClientRect().width+parseFloat(getComputedStyle(grid).gap);
+ const update=()=>{section.querySelector('.carousel-position').textContent=String(index+1).padStart(2,'0')+' / '+String(count).padStart(2,'0');};
+ function settle(force=false){if(drag||(busy&&!force))return;const unit=step();let n=Math.round(grid.scrollLeft/unit);if(n>=count){n%=count;grid.scrollLeft=n*unit;}index=n%count;busy=false;update();}
+ function move(delta,manual=false){
+  if(busy||drag)return;busy=true;let n=Math.round(grid.scrollLeft/step());
+  if(delta<0&&n===0){grid.scrollLeft=count*step();n=count;}
+  grid.scrollTo({left:(n+delta)*step(),behavior:disabled()?'instant':'smooth'});
+  clearTimeout(release);release=setTimeout(()=>settle(true),750);
+  if(manual)section.querySelector('.carousel-status').textContent=originals[(n+delta+count)%count].getAttribute('aria-label');
+ }
+ section.querySelectorAll('[data-slide]').forEach(button=>button.addEventListener('click',()=>move(Number(button.dataset.slide),true)));
+ const pause=section.querySelector('[data-carousel-pause]');pause.addEventListener('click',()=>{localPause=!localPause;pause.setAttribute('aria-pressed',String(localPause));pause.setAttribute('aria-label',pause.dataset[localPause?'play':'pause']);pause.textContent=localPause?'▶':'Ⅱ';});
+ grid.addEventListener('keydown',e=>{if(!['ArrowRight','ArrowLeft'].includes(e.key))return;e.preventDefault();move(e.key==='ArrowRight'?1:-1,true);});
+ grid.addEventListener('scrollend',()=>settle());
+ grid.addEventListener('scroll',()=>{if(drag||busy)return;clearTimeout(release);release=setTimeout(()=>settle(),180);},{passive:true});
+ grid.addEventListener('pointerdown',e=>{touching=true;lastInteraction=Date.now();if(e.pointerType!=='mouse'||e.button!==0)return;drag={x:e.clientX,scroll:grid.scrollLeft,id:e.pointerId};dragged=false;});
+ grid.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x;if(Math.abs(dx)>6){dragged=true;grid.classList.add('is-dragging');grid.setPointerCapture(drag.id);}if(dragged){e.preventDefault();grid.scrollLeft=drag.scroll-dx;}});
+ function endDrag(){touching=false;lastInteraction=Date.now();if(!drag)return;drag=null;grid.classList.remove('is-dragging');settle();}
+ window.addEventListener('pointerup',endDrag);window.addEventListener('pointercancel',endDrag);
+ grid.addEventListener('click',e=>{if(dragged){e.preventDefault();e.stopPropagation();dragged=false;}},true);
+ grid.addEventListener('dragstart',e=>e.preventDefault());
+ section.addEventListener('mouseenter',()=>hovered=true);section.addEventListener('mouseleave',()=>hovered=false);
+ section.addEventListener('focusin',()=>focused=true);section.addEventListener('focusout',()=>queueMicrotask(()=>focused=section.contains(document.activeElement)));
+ inView(section,()=>{visible=true;return()=>visible=false;});
+ setInterval(()=>{if(visible&&!disabled()&&!document.hidden&&!localPause&&!hovered&&!focused&&!touching&&Date.now()-lastInteraction>6000)move(1);},6000);
+ new ResizeObserver(()=>{if(!drag&&!busy)grid.scrollLeft=index*step();}).observe(grid);update();
+});
+const walkers=[];
+let previousTime=0;
+function walkFrame(now){
+ requestAnimationFrame(walkFrame);if(now-previousTime<30)return;previousTime=now;
+ for(const w of walkers){
+  if(disabled()||document.hidden||!stages.get(w.stage)){w.lastX=null;continue;}
+  const x=new DOMMatrixReadOnly(getComputedStyle(w.procession).transform).m41;
+  if(w.lastX!==null){const delta=w.lastX-x;if(delta>=0&&delta<w.stage.clientWidth*.5)w.phase+=delta/w.scale/window.AfricaGait.stride;}
+  w.lastX=x;
+  w.legs.forEach((el,i)=>{const pose=window.AfricaGait.leg(w.phase+i*.5,i?87:108);el.querySelector('.leg-outline').setAttribute('d',pose.path);el.querySelector('.foot-outline').setAttribute('d',pose.foot);});
+ }
+}
+requestAnimationFrame(walkFrame);
 // Each procession moves physically from right to left. Only the page inside scrolls vertically.
 document.querySelectorAll('.story-stage').forEach(stage=>{
  stages.set(stage,false);
@@ -70,16 +116,18 @@ document.querySelectorAll('.story-stage').forEach(stage=>{
   run(stage.querySelector('.flash-window'),{opacity:[0,0,1,1,0],scale:[.96,.96,1,1,1]},{times:[0,flash,.3/cycle,.975,1]});
  }
  if(stage.classList.contains('tile-couture')){
-  run(stage.querySelector('.push-procession'),{x:['110%','14%','-15%','-125%']},{times:[0,.16,.77,1]});
-  run(stage.querySelector('.walking-model'),{y:[0,-2,0]},{duration:.7,ease:'easeInOut'});
-  run(stage.querySelector('.front-leg'),{rotate:[-18,18,-18]},{duration:.7,ease:'easeInOut'});
-  run(stage.querySelector('.rear-leg'),{rotate:[18,-18,18]},{duration:.7,ease:'easeInOut'});
-  run(stage.querySelector('.model-body'),{rotate:[-2,0,-2]},{duration:.7,ease:'easeInOut'});
-  run(stage.querySelector('.model-skirt'),{skewX:[-2,3,-2]},{duration:.7,ease:'easeInOut'});
+  const procession=stage.querySelector('.push-procession');
+  run(procession,{x:['105%','-115%']});
+  const walker={stage,procession,phase:0,lastX:null,scale:1,legs:[...stage.querySelectorAll('.model-leg')]};
+  const resize=()=>walker.scale=stage.querySelector('.fashion-line').clientHeight/518||1;
+  new ResizeObserver(resize).observe(stage);resize();walkers.push(walker);
  }
  if(stage.classList.contains('tile-aircargo')){
-  run(stage.querySelector('.air-procession'),{x:['115%','10%','-14%','-135%'],y:['3%','0%','-3%','-7%']},{times:[0,.15,.72,1]});
-  run(stage.querySelector('.cargo-carrier'),{y:[0,-3,0],rotate:[0,-2,0]},{duration:2.5,ease:'easeInOut'});
+  // West Wings' Towed choreography: spring delivery, release the rope, bank away.
+  const delivery=stage.querySelector('.air-procession');
+  run(delivery,{x:['125%','-4%','1%','0%','0%','0%'],y:[-42,3,-1,0,0,0],rotate:[3,-.8,.2,0,0,0],opacity:[1,1,1,1,1,0]},{times:[0,.95/cycle,1.2/cycle,1.65/cycle,.96,1],ease:'easeOut'});
+  run(stage.querySelector('.tow-rope'),{scaleX:[1,1,0,0],opacity:[.8,.8,0,0]},{times:[0,1.05/cycle,1.4/cycle,1]});
+  run(stage.querySelector('.cargo-carrier'),{x:['0%','0%','-650%','-650%'],y:[0,-3,-260,-260],rotate:[0,0,28,28],opacity:[1,1,0,0]},{times:[0,1.05/cycle,2.6/cycle,1],ease:[.55,0,.75,.2]});
  }
  const img=stage.querySelector('.page-scroll'),viewport=stage.querySelector('.page-viewport');
  let browsing,scrollbar,lastDistance=-1;

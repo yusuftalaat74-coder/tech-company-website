@@ -35,3 +35,5 @@ The clinic and fleet previews are original HTML/CSS interface compositions. All 
 - `assets/motion/cargo-page.webp`: captured from the user-owned West Wings public site.
 - Page captures are combined for a scrolling portfolio preview; no enquiries or customer data are captured.
 - `assets/vendor/motion-14.0.0.js`: official npm `motion@14.0.0` browser distribution, MIT license alongside the bundle.
+
+- `assets/motion/westwings-plane.webp`: original top-down aircraft from the user-owned West Wings `app/public/air/top.webp`. The towing/release choreography follows that project’s `Towed` component.

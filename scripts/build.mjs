@@ -15,7 +15,7 @@ for(const key of ['accent','accentBright','surface','ink'])if(!/^#[a-f0-9]{6}$/i
 if(brand.email&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(brand.email))throw Error('Invalid enquiry email');
 if(brand.whatsapp&&!/^\d{7,15}$/.test(brand.whatsapp))throw Error('WhatsApp must be international digits only');
 for(const key of ['siteUrl','bookingUrl'])if(brand[key]&&!/^https:\/\//.test(brand[key]))throw Error(`${key} must use HTTPS`);
-const assetVersion=createHash('sha256').update(await readFile('assets/app.js')).update(await readFile('assets/style.css')).update(await readFile('assets/motion.js')).update(await readFile('assets/motion.css')).update(await readFile('assets/choreography.js')).digest('hex').slice(0,12);
+const assetVersion=createHash('sha256').update(await readFile('assets/app.js')).update(await readFile('assets/style.css')).update(await readFile('assets/motion.js')).update(await readFile('assets/motion.css')).update(await readFile('assets/choreography.js')).update(await readFile('assets/gait.js')).digest('hex').slice(0,12);
 const routes=['','services',...services.map(s=>'services/'+s.slug),'solutions',...sectors.map(s=>'solutions/'+s.slug),'platforms','work','studio','contact','privacy'];
 await rm('dist',{recursive:true,force:true});await mkdir('dist/assets',{recursive:true});
 await cp('assets','dist/assets',{recursive:true,filter:source=>!source.endsWith('.png')});
