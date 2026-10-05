@@ -1,3 +1,5 @@
+import {locales,localizeContent} from './locales.mjs';
+import {extraSectors} from './expansion.mjs';
 export const ui = {
  en: {
   nav:['Services','Solutions','Our approach'], start:'Start a project',skip:'Skip to content',menu:'Open navigation',close:'Close', language:'العربية',
@@ -52,3 +54,9 @@ export const sectors=[
  {slug:'hospitality',icon:'cup',category:'business',en:{name:'Hospitality',title:'A better experience.\nBefore they arrive.',desc:'Thoughtful digital touchpoints for restaurants, hotels and the people they welcome.',items:['Booking experiences','Digital menus','Ordering platforms','Guest communication']},ar:{name:'الضيافة والمطاعم',title:'تجربة أفضل.\nقبل الوصول.',desc:'نقاط تواصل رقمية مدروسة للمطاعم والفنادق وضيوفها.',items:['تجارب الحجز','القوائم الرقمية','منصات الطلب','التواصل مع الضيوف']}},
  {slug:'organisations',icon:'globe',category:'people',en:{name:'Organisations & impact',title:'Technology that\nserves your mission.',desc:'Tools that support field teams, connect programme information and make reporting clearer.',items:['Programme management','Field data collection','Volunteer coordination','Impact reporting']},ar:{name:'المؤسسات والعمل المجتمعي',title:'تقنية تدعم\nرسالتك.',desc:'أدوات تساعد فرق الميدان وتربط بيانات البرامج وتجعل التقارير أوضح.',items:['إدارة البرامج','جمع البيانات الميدانية','تنسيق المتطوعين','تقارير الأثر']}}
 ];
+
+sectors.push(...extraSectors);
+Object.assign(ui,locales);
+localizeContent(services,sectors);
+
+for(const t of Object.values(ui)){for(const k of ['serviceEyebrow','selectedEyebrow','globalEyebrow','processEyebrow'])t[k]=t[k].replace(/^\d+ \/ /,'');}

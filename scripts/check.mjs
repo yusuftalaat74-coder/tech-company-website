@@ -8,7 +8,7 @@ for(const file of html){const text=await readFile(file,'utf8');
   let target=path.resolve(path.dirname(file),url.split(/[?#]/)[0]);
   try{let s=await stat(target);if(s.isDirectory())await stat(path.join(target,'index.html'));}catch{failures.push(`${file}: missing ${url}`);}
  }
- if(!/<html lang="(en|ar)"/.test(text))failures.push(`${file}: missing language`);
+ if(!/<html lang="(en|ar|fr|pt)"/.test(text))failures.push(`${file}: missing language`);
  if(file.includes('/ar/')&&!text.includes('dir="rtl"'))failures.push(`${file}: missing RTL`);
  const ids=[...text.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
  if(ids.length!==new Set(ids).size)failures.push(`${file}: duplicate IDs`);

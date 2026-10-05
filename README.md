@@ -111,3 +111,17 @@ licenses/           تراخيص الخطوط
 ## الأصول
 
 الخط الإنجليزي Manrope والخط العربي Noto Sans Arabic، محفوظان محليًا وفق ترخيص SIL Open Font License المرفق. صورة الكرة الأرضية تم توليدها خصيصًا لهذه النسخة بأداة توليد الصور المدمجة، وتحويلها إلى WebP لتقليل الحجم. تفاصيل الأصل في `ASSETS.md`.
+
+
+## Expanded company website
+
+The site now builds 88 pages across English, Arabic (RTL), French and Portuguese.
+
+- Seven platform profiles with industry filters and links that preselect the platform in the project brief.
+- Eight industry pages, including photography studios and public services.
+- Approved portfolio: Queen Secret, Wimbi, Switx Visions and West Wings. Text and abstract project artwork describe scope; they are not screenshots of customer systems.
+- Local payment planning, offline workflow options, language support and hosting considerations. These are project capabilities, not active payment integrations or compliance certifications.
+- Clinic and fleet interface concepts remain explicitly labelled as illustrative sample data.
+- Country and platform fields are included in the downloadable brief. No enquiry is transmitted unless an actual contact integration is configured.
+
+Edit `src/expansion.mjs` for platform/portfolio copy, `src/locales.mjs` for French and Portuguese, and `src/demo-copy.mjs` for interactive demo translations. Clear or replace `portfolio` in the brand file when reusing the site for another company. Configure the real email, WhatsApp number or booking URL in `src/brand.mjs` to activate those contact channels.
