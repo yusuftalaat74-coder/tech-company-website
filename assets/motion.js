@@ -36,9 +36,4 @@ if(canvas){
 }
 const stages=[...document.querySelectorAll('.story-stage')];
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>e.target.classList.toggle('scene-visible',e.isIntersecting)),{threshold:.12});stages.forEach(s=>observer.observe(s));
-document.querySelectorAll('[data-story-tab]').forEach(button=>button.addEventListener('click',()=>{
- const host=button.closest('[data-story-gallery]');host.querySelectorAll('[data-story-tab]').forEach(b=>b.setAttribute('aria-selected',String(b===button)));host.querySelectorAll('[data-story-panel]').forEach(p=>{p.hidden=p.dataset.storyPanel!==button.dataset.storyTab;});
-}));
-document.querySelectorAll('[data-story-tab]').forEach(button=>button.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();const tabs=[...button.parentElement.querySelectorAll('[data-story-tab]')],i=tabs.indexOf(button);const j=e.key==='Home'?0:e.key==='End'?tabs.length-1:(i+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;tabs[j].click();tabs[j].focus();}));
-document.querySelectorAll('[data-story-replay]').forEach(button=>button.addEventListener('click',()=>{const stage=button.closest('[data-story-panel]').querySelector('.story-stage');stage.getAnimations({subtree:true}).forEach(a=>a.currentTime=0);}));
 })();

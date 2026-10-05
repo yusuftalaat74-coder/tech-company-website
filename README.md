@@ -136,8 +136,8 @@ Run `npm run admin` and open `http://127.0.0.1:4188/admin/`. The dashboard is **
 - The HTTP server binds only to 127.0.0.1, checks Host/Origin and a per-process request token, and serializes saves/publications. Do not expose it through a public tunnel.
 - `admin/`, content editing endpoints and backups are not copied to `dist/` or GitHub Pages.
 - No partner names/logos are pre-populated. The partner section remains hidden until valid partner entries are enabled.
-- Five illustrative client motion stories are provided, including Senior Kofta. The restaurant/client presentations are creative compositions, not screenshots or claims about specific delivered functionality. An uploaded project screenshot replaces the composition.
+- Three compact motion cards sit side by side: a 175 ms pencil scribble reveals AFRICA TECH, an outline-only fashion figure pulls Queen Secret, and a West Wings aircraft carries its site. On phones the cards form a swipeable row. There are no scene captions or tabs. Client preview compositions can be replaced with uploaded screenshots.
 - Continuous canvas globe and independently orbiting markers use Natural Earth land points. Scenes pause when out of view; the globe suspends rendering in hidden tabs. Visitors can pause motion and reduced-motion preferences are honoured.
-- The globe, scene copy and pace can be changed in the dashboard. Scenes can be added, reordered, hidden and assigned a new preview image.
+- The dashboard controls the globe, repetition interval and preview images. The triptych selects the first enabled beauty scene and flight scene alongside the AFRICA TECH card. Other stored scene types are retained for future layouts; the client portfolio still includes all five clients.
 
 An online dashboard with password-protected server persistence has **not** been deployed. GitHub Pages cannot run this editing server. A separate authenticated backend and hosting configuration are required for online administration.
