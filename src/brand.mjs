@@ -9,7 +9,8 @@ export default {
   accentBright: '#f15a2b',
   surface: '#f5f4ef',
   ink: '#171a18',
-  email: '', // Add the actual enquiry email. Empty = download-only project brief.
+  email: 'info@yusuftalaat.tech', // Contact address displayed in the site and email brief action.
+  phone: '+5548999878448', // International phone number, including +.
   whatsapp: '', // International digits only, without +. Hidden until configured.
   bookingUrl: '', // Optional https calendar link. Hidden until configured.
   siteUrl: 'https://tech.yusuftalaat.tech', // Your final domain, e.g. https://example.com. Enables canonical URLs and sitemap.

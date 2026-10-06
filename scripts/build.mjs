@@ -13,6 +13,7 @@ if(!process.env.BRAND_FILE){const content=validateContent(await loadContent());b
 if(!brand.name||!Array.isArray(brand.locales)||brand.locales.some(l=>!ui[l]))throw Error('Invalid brand configuration');
 for(const key of ['accent','accentBright','surface','ink'])if(!/^#[a-f0-9]{6}$/i.test(brand[key]))throw Error(`Invalid color: ${key}`);
 if(brand.email&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(brand.email))throw Error('Invalid enquiry email');
+if(brand.phone&&!/^\+[1-9]\d{6,14}$/.test(brand.phone))throw Error('Phone must use international format, including +');
 if(brand.whatsapp&&!/^\d{7,15}$/.test(brand.whatsapp))throw Error('WhatsApp must be international digits only');
 for(const key of ['siteUrl','bookingUrl'])if(brand[key]&&!/^https:\/\//.test(brand[key]))throw Error(`${key} must use HTTPS`);
 const assetVersion=createHash('sha256').update(await readFile('assets/app.js')).update(await readFile('assets/style.css')).update(await readFile('assets/motion.js')).update(await readFile('assets/motion.css')).update(await readFile('assets/choreography.js')).update(await readFile('assets/gait.js')).digest('hex').slice(0,12);

@@ -22,3 +22,5 @@
 .wire-orbit:after{content:'';position:absolute;left:13%;top:7%;width:6px;height:6px;border-radius:50%;background:var(--orange);box-shadow:0 0 14px #f15a2b88}
 .motion-paused [data-motion-ambient]{animation:none!important}.motion-paused .showcase-window{transform:none!important}
 .icon{transform-origin:center;transform-box:fill-box}.step-index>span,.hero-bottom a>span,.back-top>span{display:inline-block}
+
+.footer-contact .contact-detail{display:block;width:fit-content;max-width:100%;overflow-wrap:anywhere;font-size:13px;margin-block:12px}.contact-aside>.text-link{display:flex;width:fit-content;margin-block:18px;overflow-wrap:anywhere;max-width:100%}

@@ -13,7 +13,7 @@
         {
           "id": "queen",
           "name": "Queen Secret",
-          "type": "beauty",
+          "type": "flight",
           "enabled": true,
           "color": "#9d6f78",
           "url": "",
@@ -104,7 +104,7 @@
     "accentBright": "#f15a2b",
     "surface": "#f5f4ef",
     "ink": "#171a18",
-    "email": "",
+    "email": "info@yusuftalaat.tech",
     "whatsapp": "",
     "bookingUrl": "",
     "siteUrl": "https://tech.yusuftalaat.tech",
@@ -120,7 +120,8 @@
       "fr": "Sites web, applications mobiles, systèmes de gestion et cloud. Une vision africaine, une ambition mondiale.",
       "pt": "Sites, aplicações móveis, sistemas de gestão e cloud. Perspetiva africana, ambição global.",
       "ar": "مواقع وتطبيقات وأنظمة أعمال وبنية سحابية. برؤية أفريقية وطموح عالمي."
-    }
+    },
+    "phone": "+5548999878448"
   },
   "ui": {
     "en": {

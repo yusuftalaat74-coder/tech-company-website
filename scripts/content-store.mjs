@@ -11,6 +11,7 @@ export function validateContent(data){
  if(typeof b.name!=='string'||b.name.length<1||b.name.length>100)throw Error('Invalid company name');
  for(const k of ['accent','accentBright','surface','ink'])if(!/^#[a-f0-9]{6}$/i.test(b[k]))throw Error('Invalid colour');
  if(b.email&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(b.email))throw Error('Invalid email');
+ if(b.phone&&!/^\+[1-9]\d{6,14}$/.test(b.phone))throw Error('Phone must use international format, including +');
  if(b.whatsapp&&!/^\d{7,15}$/.test(b.whatsapp))throw Error('Invalid WhatsApp number');
  for(const k of ['siteUrl','bookingUrl'])if(b[k]&&!/^https:\/\/[^\s]+$/.test(b[k]))throw Error('Links must use HTTPS');
  if(!Array.isArray(b.locales)||b.locales.some(l=>!['ar','en','fr','pt'].includes(l))||!b.locales.includes(b.defaultLocale))throw Error('Invalid languages');
