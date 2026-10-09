@@ -143,3 +143,8 @@ Run `npm run admin` and open `http://127.0.0.1:4188/admin/`. The dashboard is **
 An online dashboard with password-protected server persistence has **not** been deployed. GitHub Pages cannot run this editing server. A separate authenticated backend and hosting configuration are required for online administration.
 
 Run `node --test tests/gait.test.mjs` to verify joint lengths, ground clearance, foot planting and cycle continuity.
+
+## African Tech
+
+Design, development and software copyright © 2026 [African Tech](https://tech.yusuftalaat.tech/).
+See [attribution notice](AFRICAN-TECH-NOTICE.txt).
