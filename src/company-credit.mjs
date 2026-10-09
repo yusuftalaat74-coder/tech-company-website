@@ -1,0 +1,2 @@
+export const creditCopy={"ar": "تصميم وتطوير وحقوق الموقع", "en": "Website design, development & copyright", "pt": "Design, desenvolvimento e direitos do website", "fr": "Conception, développement et droits du site", "sw-KE": "Ubunifu, utengenezaji na hakimiliki ya tovuti", "mg": "Famolavolana, fanamboarana ary zon’ny tranonkala", "zu": "Ukwakhiwa, ukuthuthukiswa namalungelo ewebhusayithi"};
+export const creditUrl="https://tech.yusuftalaat.tech/";
