@@ -92,7 +92,7 @@
         },
         {
           "id": "badr",
-          "name": "Badr Restaurant",
+          "name": "Dubai Restaurant",
           "type": "dining",
           "enabled": true,
           "color": "#b98642",
@@ -112,7 +112,7 @@
           "type": "studio",
           "enabled": true,
           "color": "#526c65",
-          "url": "https://mare-hospitality.yusuftalaat74.chatgpt.site/?hotel=otia&lang=en",
+          "url": "https://mare-hospitality.yusuftalaat74.chatgpt.site/?hotel=otia&lang=zh",
           "image": "",
           "descriptionIndex": 6,
           "title": {
@@ -124,13 +124,29 @@
         },
         {
           "id": "africa-development",
-          "name": "Africa Development",
+          "name": "AAFED",
           "type": "studio",
           "enabled": true,
           "color": "#3f6852",
-          "url": "",
+          "url": "https://www.aafed.org/",
           "image": "",
           "descriptionIndex": 7,
+          "title": {
+            "ar": "",
+            "en": "",
+            "fr": "",
+            "pt": ""
+          }
+        },
+        {
+          "id": "apex",
+          "name": "APEX Concentrates",
+          "type": "studio",
+          "enabled": true,
+          "color": "#17314f",
+          "url": "https://apex.yusuftalaat.tech/",
+          "image": "",
+          "descriptionIndex": 4,
           "title": {
             "ar": "",
             "en": "",
@@ -144,19 +160,20 @@
     "portfolio": [
       "Queen Secret",
       "Wimbi",
-      "Badr Restaurant",
+      "Dubai Restaurant",
       "OTIA Hotel",
-      "Africa Development",
+      "AAFED",
       "Switx Visions",
       "West Wings",
-      "Senior Kofta"
+      "Senior Kofta",
+      "APEX Concentrates"
     ],
     "accent": "#d64520",
     "accentBright": "#f15a2b",
     "surface": "#f5f4ef",
     "ink": "#171a18",
     "email": "info@africantech.si",
-    "whatsapp": "",
+    "whatsapp": "5548999878448",
     "bookingUrl": "",
     "siteUrl": "https://africantech.si",
     "defaultLocale": "en",
@@ -1807,11 +1824,12 @@
         "A clinic management system connecting appointments and day-to-day operations.",
         "A restaurant website, QR menu and WhatsApp ordering experience.",
         "A restaurant website with a digital menu and a clear online ordering journey.",
-        "A multilingual hotel experience connecting discovery, stays and hotel operations.",
-        "A field operations system for programme delivery, beneficiary data and reporting.",
+        "A multilingual hotel website shown here in Simplified Chinese.",
+        "The public AAFED website for education, development and community programmes.",
         "A studio website, administration dashboard and client gallery platform.",
         "A digital presence for an air cargo company.",
-        "Senior Kofta is one of our restaurant clients."
+        "Senior Kofta is one of our restaurant clients.",
+        "A multilingual B2B product website for concentrated cleaning solutions."
       ],
       "workTags": [
         [
@@ -1830,13 +1848,13 @@
         ],
         [
           "Hotel website",
-          "Guest journey",
-          "Operations"
+          "Simplified Chinese",
+          "Guest journey"
         ],
         [
-          "Management system",
-          "Field data",
-          "Reporting"
+          "Organisation website",
+          "Programmes",
+          "Donations"
         ],
         [
           "Website",
@@ -1849,6 +1867,11 @@
         ],
         [
           "Restaurant client"
+        ],
+        [
+          "B2B website",
+          "Product catalogue",
+          "Seven languages"
         ]
       ],
       "productDescriptions": [
@@ -1976,11 +1999,12 @@
         "نظام لإدارة العيادات يربط المواعيد والعمليات اليومية.",
         "موقع مطعم وقائمة QR وتجربة طلب عبر واتساب.",
         "موقع مطعم بقائمة رقمية ومسار واضح للطلب عبر الإنترنت.",
-        "تجربة فندقية متعددة اللغات تربط اكتشاف الفندق والإقامة وعمليات الإدارة.",
-        "نظام للعمليات الميدانية وإدارة البرامج وبيانات المستفيدين والتقارير.",
+        "موقع فندقي متعدد اللغات، معروض هنا بنسخته الصينية المبسطة.",
+        "الموقع العام لمؤسسة AAFED للتعليم والتنمية والبرامج المجتمعية.",
         "موقع استوديو ولوحة إدارة ومنصة معارض خاصة للعملاء.",
         "حضور رقمي لشركة شحن جوي.",
-        "سنيور كفتة أحد عملائنا في قطاع المطاعم."
+        "سنيور كفتة أحد عملائنا في قطاع المطاعم.",
+        "موقع منتجات B2B متعدد اللغات لحلول التنظيف المركزة."
       ],
       "workTags": [
         [
@@ -1998,14 +2022,14 @@
           "طلبات"
         ],
         [
-          "موقع فندقي",
-          "تجربة الضيف",
-          "إدارة العمليات"
+          "موقع فندق",
+          "الصينية المبسطة",
+          "تجربة الضيف"
         ],
         [
-          "نظام إداري",
-          "بيانات ميدانية",
-          "تقارير"
+          "موقع مؤسسة",
+          "البرامج",
+          "التبرعات"
         ],
         [
           "موقع إلكتروني",
@@ -2018,6 +2042,11 @@
         ],
         [
           "عميل في قطاع المطاعم"
+        ],
+        [
+          "موقع B2B",
+          "كتالوج منتجات",
+          "سبع لغات"
         ]
       ],
       "productDescriptions": [
@@ -2145,11 +2174,12 @@
         "Un système de gestion de cliniques reliant rendez-vous et opérations quotidiennes.",
         "Un site de restaurant, une carte QR et un parcours de commande sur WhatsApp.",
         "Un site de restaurant avec carte numérique et parcours de commande en ligne.",
-        "Une expérience hôtelière multilingue reliant découverte, séjour et opérations.",
-        "Un système de terrain pour les programmes, les bénéficiaires et les rapports.",
+        "Un site hôtelier multilingue présenté ici en chinois simplifié.",
+        "Le site public d’AAFED pour l’éducation, le développement et les programmes communautaires.",
         "Un site de studio, un tableau de bord et une plateforme de galeries clients.",
         "Une présence numérique pour une entreprise de fret aérien.",
-        "Senior Kofta compte parmi nos clients dans la restauration."
+        "Senior Kofta compte parmi nos clients dans la restauration.",
+        "Un site B2B multilingue pour des solutions de nettoyage concentrées."
       ],
       "workTags": [
         [
@@ -2168,13 +2198,13 @@
         ],
         [
           "Site hôtelier",
-          "Parcours client",
-          "Opérations"
+          "Chinois simplifié",
+          "Parcours client"
         ],
         [
-          "Système de gestion",
-          "Données terrain",
-          "Rapports"
+          "Site d’organisation",
+          "Programmes",
+          "Dons"
         ],
         [
           "Site web",
@@ -2187,6 +2217,11 @@
         ],
         [
           "Client restauration"
+        ],
+        [
+          "Site B2B",
+          "Catalogue produits",
+          "Sept langues"
         ]
       ],
       "productDescriptions": [
@@ -2314,11 +2349,12 @@
         "Um sistema de gestão de clínicas que liga consultas e operações diárias.",
         "Um site de restaurante, menu QR e pedidos através do WhatsApp.",
         "Um site de restaurante com menu digital e percurso claro de encomenda online.",
-        "Uma experiência hoteleira multilingue que liga descoberta, estadia e operações.",
-        "Um sistema de campo para programas, beneficiários e relatórios.",
+        "Um site hoteleiro multilingue, apresentado aqui em chinês simplificado.",
+        "O site público da AAFED para educação, desenvolvimento e programas comunitários.",
         "Um site de estúdio, painel de gestão e plataforma de galerias para clientes.",
         "Uma presença digital para uma empresa de carga aérea.",
-        "Senior Kofta é um dos nossos clientes na restauração."
+        "Senior Kofta é um dos nossos clientes na restauração.",
+        "Um site B2B multilingue para soluções de limpeza concentradas."
       ],
       "workTags": [
         [
@@ -2337,13 +2373,13 @@
         ],
         [
           "Site de hotel",
-          "Experiência do hóspede",
-          "Operações"
+          "Chinês simplificado",
+          "Experiência do hóspede"
         ],
         [
-          "Sistema de gestão",
-          "Dados de campo",
-          "Relatórios"
+          "Site institucional",
+          "Programas",
+          "Donativos"
         ],
         [
           "Site",
@@ -2356,6 +2392,11 @@
         ],
         [
           "Cliente de restauração"
+        ],
+        [
+          "Site B2B",
+          "Catálogo de produtos",
+          "Sete idiomas"
         ]
       ],
       "productDescriptions": [

@@ -10,7 +10,8 @@ export const defaultMotion={enabled:true,globe:true,orbits:true,stories:true,dur
  {id:'wimbi',name:'Wimbi',type:'dining',enabled:true,color:'#997b37',url:'https://wimbi.yusuftalaat.tech/pt',image:'',descriptionIndex:2},
  {id:'kofta',name:'Senior Kofta',type:'dining',enabled:true,color:'#a74028',url:'',image:'',descriptionIndex:3},
  {id:'switx',name:'Switx Visions',type:'studio',enabled:true,color:'#47604b',url:'https://switxvisions.com/',image:'',descriptionIndex:4},
- {id:'badr',name:'Badr Restaurant',type:'dining',enabled:true,color:'#b98642',url:'https://badrdubai.yusuftalaat.tech/fr',image:'',descriptionIndex:5},
- {id:'otia',name:'OTIA Hotel',type:'studio',enabled:true,color:'#526c65',url:'https://mare-hospitality.yusuftalaat74.chatgpt.site/?hotel=otia&lang=en',image:'',descriptionIndex:6},
- {id:'africa-development',name:'Africa Development',type:'studio',enabled:true,color:'#3f6852',url:'',image:'',descriptionIndex:7}
+ {id:'badr',name:'Dubai Restaurant',type:'dining',enabled:true,color:'#b98642',url:'https://badrdubai.yusuftalaat.tech/fr',image:'',descriptionIndex:5},
+ {id:'otia',name:'OTIA Hotel',type:'studio',enabled:true,color:'#526c65',url:'https://mare-hospitality.yusuftalaat74.chatgpt.site/?hotel=otia&lang=zh',image:'',descriptionIndex:6},
+ {id:'africa-development',name:'AAFED',type:'studio',enabled:true,color:'#3f6852',url:'https://www.aafed.org/',image:'',descriptionIndex:7},
+ {id:'apex',name:'APEX Concentrates',type:'studio',enabled:true,color:'#17314f',url:'https://apex.yusuftalaat.tech/',image:'',descriptionIndex:4}
 ]};

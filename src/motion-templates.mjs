@@ -3,7 +3,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 // A single-stroke stick figure leaning into the window; legs use planted-foot IK.
 const model=`<svg class="stick-figure" viewBox="0 0 210 518" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><circle cx="76" cy="151" r="31"/><path d="M81 183 104 361M89 236 49 272 15 249M85 211 47 239 15 219"/><g class="model-leg rear-leg"><path class="leg-outline" d="M104 361 77 430 123 503"/><path class="foot-outline" d="M123 503h-22"/></g><g class="model-leg front-leg"><path class="leg-outline" d="M104 361 70 431 85 503"/><path class="foot-outline" d="M85 503h-22"/></g></g></svg>`;
 export function sceneImage(scene,asset){
- const defaults={queen:'queen-front.webp',west:'cargo-front.webp',wimbi:'wimbi-front.webp',switx:'switx-front.webp',badr:'badr-front.webp',otia:'otia-front.webp','africa-development':'africa-development-front.webp'};
+ const defaults={queen:'queen-front.webp',west:'cargo-front.webp',wimbi:'wimbi-front.webp',switx:'switx-front.webp',badr:'badr-front.webp',otia:'otia-front.webp','africa-development':'africa-development-front.webp',apex:'apex-front.webp'};
  return scene?.image||(defaults[scene?.id]?asset('motion/'+defaults[scene.id]):'');
 }
 const bar='<div class="motion-window-bar" aria-hidden="true"><i></i><i></i><i></i><b></b></div>';

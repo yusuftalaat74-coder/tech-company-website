@@ -4,14 +4,14 @@ export default {
   name: 'AFRICA TECH',
   motion: defaultMotion,
   shortName: 'AT',
-  portfolio: ['Queen Secret', 'Wimbi', 'Badr Restaurant', 'OTIA Hotel', 'Africa Development', 'Switx Visions', 'West Wings', 'Senior Kofta'], // Clear when cloning for another company.
+  portfolio: ['Queen Secret', 'Wimbi', 'Dubai Restaurant', 'OTIA Hotel', 'AAFED', 'Switx Visions', 'West Wings', 'Senior Kofta', 'APEX Concentrates'], // Clear when cloning for another company.
   accent: '#d64520',
   accentBright: '#f15a2b',
   surface: '#f5f4ef',
   ink: '#171a18',
   email: 'info@africantech.si', // Contact address displayed in the site and email brief action.
   phone: '+5548999878448', // International phone number, including +.
-  whatsapp: '', // International digits only, without +. Hidden until configured.
+  whatsapp: '5548999878448', // International digits only, without +. Hidden until configured.
   bookingUrl: '', // Optional https calendar link. Hidden until configured.
   siteUrl: 'https://africantech.si', // Your final domain, e.g. https://example.com. Enables canonical URLs and sitemap.
   defaultLocale: 'en',
