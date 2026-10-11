@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tech.yusuftalaat.tech/sitemap.xml
