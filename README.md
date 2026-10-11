@@ -1,6 +1,6 @@
 # AFRICA TECH
 
-الموقع: https://tech.yusuftalaat.tech
+الموقع: https://africantech.si
 
 المستودع: https://github.com/yusuftalaat74-coder/tech-company-website
 
@@ -146,5 +146,5 @@ Run `node --test tests/gait.test.mjs` to verify joint lengths, ground clearance,
 
 ## African Tech
 
-Design, development and software copyright © 2026 [African Tech](https://tech.yusuftalaat.tech/).
+Design, development and software copyright © 2026 [African Tech](https://africantech.si/).
 See [attribution notice](AFRICAN-TECH-NOTICE.txt).

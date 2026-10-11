@@ -15,6 +15,9 @@ export const products=[
 export const work=[
  {name:'Queen Secret',sector:'healthcare',monogram:'QS',color:'rose'},
  {name:'Wimbi',sector:'hospitality',monogram:'W',color:'sand'},
+ {name:'Badr Restaurant',sector:'hospitality',monogram:'BR',color:'sand'},
+ {name:'OTIA Hotel',sector:'hospitality',monogram:'OH',color:'sage'},
+ {name:'Africa Development',sector:'organisations',monogram:'AD',color:'sage'},
  {name:'Switx Visions',sector:'studios',monogram:'SV',color:'sage'},
  {name:'West Wings',sector:'logistics',monogram:'WW',color:'slate'},
  {name:'Senior Kofta',sector:'hospitality',monogram:'SK',color:'sand'}

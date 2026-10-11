@@ -5,9 +5,12 @@ export const motionCopy={
  pt:{eyebrow:'DO PRIMEIRO TRAÇO À EXPERIÊNCIA',title:'Ideias\nque ganham vida.',intro:'Um traço de lápis transforma-se numa experiência digital. Conheça os nossos projetos em movimento.',draw:'Desenhar',build:'Criar',reveal:'Revelar',replay:'Repetir cena',pause:'Pausar animações',play:'Ativar animações',next:'Próxima cena',previous:'Cena anterior',view:'Falar de um projeto semelhante',partners:'Os nossos parceiros',partnerIntro:'As equipas e tecnologias com que colaboramos.',client:'Cliente',stories:['Uma bela experiência revelada.','Um site pronto para descolar.','Da mesa para o ecrã.','Bom apetite. Uma grande ideia.','Cada imagem conta uma história.'],senior:'Senior Kofta é um dos nossos clientes na restauração.',storyLabel:'História do projeto',previewNote:'Apresentação criativa do projeto'}
 };
 export const defaultMotion={enabled:true,globe:true,orbits:true,stories:true,duration:14,globeSpeed:1,partners:[],scenes:[
- {id:'queen',name:'Queen Secret',type:'flight',enabled:true,color:'#9d6f78',url:'',image:'',descriptionIndex:0},
+ {id:'queen',name:'Queen Secret',type:'studio',enabled:true,color:'#9d6f78',url:'',image:'',descriptionIndex:0},
  {id:'west',name:'West Wings',type:'flight',enabled:true,color:'#294b5b',url:'https://westwingscargo.com/',image:'',descriptionIndex:1},
  {id:'wimbi',name:'Wimbi',type:'dining',enabled:true,color:'#997b37',url:'https://wimbi.yusuftalaat.tech/pt',image:'',descriptionIndex:2},
  {id:'kofta',name:'Senior Kofta',type:'dining',enabled:true,color:'#a74028',url:'',image:'',descriptionIndex:3},
- {id:'switx',name:'Switx Visions',type:'studio',enabled:true,color:'#47604b',url:'https://switxvisions.com/',image:'',descriptionIndex:4}
+ {id:'switx',name:'Switx Visions',type:'studio',enabled:true,color:'#47604b',url:'https://switxvisions.com/',image:'',descriptionIndex:4},
+ {id:'badr',name:'Badr Restaurant',type:'dining',enabled:true,color:'#b98642',url:'https://badrdubai.yusuftalaat.tech/fr',image:'',descriptionIndex:5},
+ {id:'otia',name:'OTIA Hotel',type:'studio',enabled:true,color:'#526c65',url:'https://mare-hospitality.yusuftalaat74.chatgpt.site/?hotel=otia&lang=en',image:'',descriptionIndex:6},
+ {id:'africa-development',name:'Africa Development',type:'studio',enabled:true,color:'#3f6852',url:'',image:'',descriptionIndex:7}
 ]};

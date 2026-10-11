@@ -13,7 +13,7 @@
         {
           "id": "queen",
           "name": "Queen Secret",
-          "type": "flight",
+          "type": "studio",
           "enabled": true,
           "color": "#9d6f78",
           "url": "",
@@ -89,6 +89,54 @@
             "fr": "",
             "pt": ""
           }
+        },
+        {
+          "id": "badr",
+          "name": "Badr Restaurant",
+          "type": "dining",
+          "enabled": true,
+          "color": "#b98642",
+          "url": "https://badrdubai.yusuftalaat.tech/fr",
+          "image": "",
+          "descriptionIndex": 5,
+          "title": {
+            "ar": "",
+            "en": "",
+            "fr": "",
+            "pt": ""
+          }
+        },
+        {
+          "id": "otia",
+          "name": "OTIA Hotel",
+          "type": "studio",
+          "enabled": true,
+          "color": "#526c65",
+          "url": "https://mare-hospitality.yusuftalaat74.chatgpt.site/?hotel=otia&lang=en",
+          "image": "",
+          "descriptionIndex": 6,
+          "title": {
+            "ar": "",
+            "en": "",
+            "fr": "",
+            "pt": ""
+          }
+        },
+        {
+          "id": "africa-development",
+          "name": "Africa Development",
+          "type": "studio",
+          "enabled": true,
+          "color": "#3f6852",
+          "url": "",
+          "image": "",
+          "descriptionIndex": 7,
+          "title": {
+            "ar": "",
+            "en": "",
+            "fr": "",
+            "pt": ""
+          }
         }
       ]
     },
@@ -96,6 +144,9 @@
     "portfolio": [
       "Queen Secret",
       "Wimbi",
+      "Badr Restaurant",
+      "OTIA Hotel",
+      "Africa Development",
       "Switx Visions",
       "West Wings",
       "Senior Kofta"
@@ -104,10 +155,10 @@
     "accentBright": "#f15a2b",
     "surface": "#f5f4ef",
     "ink": "#171a18",
-    "email": "info@yusuftalaat.tech",
+    "email": "info@africantech.si",
     "whatsapp": "",
     "bookingUrl": "",
-    "siteUrl": "https://tech.yusuftalaat.tech",
+    "siteUrl": "https://africantech.si",
     "defaultLocale": "en",
     "locales": [
       "en",
@@ -1755,6 +1806,9 @@
       "workDescriptions": [
         "A clinic management system connecting appointments and day-to-day operations.",
         "A restaurant website, QR menu and WhatsApp ordering experience.",
+        "A restaurant website with a digital menu and a clear online ordering journey.",
+        "A multilingual hotel experience connecting discovery, stays and hotel operations.",
+        "A field operations system for programme delivery, beneficiary data and reporting.",
         "A studio website, administration dashboard and client gallery platform.",
         "A digital presence for an air cargo company.",
         "Senior Kofta is one of our restaurant clients."
@@ -1768,6 +1822,21 @@
           "Website",
           "Digital menu",
           "Ordering"
+        ],
+        [
+          "Website",
+          "Digital menu",
+          "Ordering"
+        ],
+        [
+          "Hotel website",
+          "Guest journey",
+          "Operations"
+        ],
+        [
+          "Management system",
+          "Field data",
+          "Reporting"
         ],
         [
           "Website",
@@ -1906,6 +1975,9 @@
       "workDescriptions": [
         "نظام لإدارة العيادات يربط المواعيد والعمليات اليومية.",
         "موقع مطعم وقائمة QR وتجربة طلب عبر واتساب.",
+        "موقع مطعم بقائمة رقمية ومسار واضح للطلب عبر الإنترنت.",
+        "تجربة فندقية متعددة اللغات تربط اكتشاف الفندق والإقامة وعمليات الإدارة.",
+        "نظام للعمليات الميدانية وإدارة البرامج وبيانات المستفيدين والتقارير.",
         "موقع استوديو ولوحة إدارة ومنصة معارض خاصة للعملاء.",
         "حضور رقمي لشركة شحن جوي.",
         "سنيور كفتة أحد عملائنا في قطاع المطاعم."
@@ -1919,6 +1991,21 @@
           "موقع إلكتروني",
           "قائمة رقمية",
           "طلبات"
+        ],
+        [
+          "موقع إلكتروني",
+          "قائمة رقمية",
+          "طلبات"
+        ],
+        [
+          "موقع فندقي",
+          "تجربة الضيف",
+          "إدارة العمليات"
+        ],
+        [
+          "نظام إداري",
+          "بيانات ميدانية",
+          "تقارير"
         ],
         [
           "موقع إلكتروني",
@@ -2057,6 +2144,9 @@
       "workDescriptions": [
         "Un système de gestion de cliniques reliant rendez-vous et opérations quotidiennes.",
         "Un site de restaurant, une carte QR et un parcours de commande sur WhatsApp.",
+        "Un site de restaurant avec carte numérique et parcours de commande en ligne.",
+        "Une expérience hôtelière multilingue reliant découverte, séjour et opérations.",
+        "Un système de terrain pour les programmes, les bénéficiaires et les rapports.",
         "Un site de studio, un tableau de bord et une plateforme de galeries clients.",
         "Une présence numérique pour une entreprise de fret aérien.",
         "Senior Kofta compte parmi nos clients dans la restauration."
@@ -2070,6 +2160,21 @@
           "Site web",
           "Carte numérique",
           "Commandes"
+        ],
+        [
+          "Site web",
+          "Carte numérique",
+          "Commandes"
+        ],
+        [
+          "Site hôtelier",
+          "Parcours client",
+          "Opérations"
+        ],
+        [
+          "Système de gestion",
+          "Données terrain",
+          "Rapports"
         ],
         [
           "Site web",
@@ -2208,6 +2313,9 @@
       "workDescriptions": [
         "Um sistema de gestão de clínicas que liga consultas e operações diárias.",
         "Um site de restaurante, menu QR e pedidos através do WhatsApp.",
+        "Um site de restaurante com menu digital e percurso claro de encomenda online.",
+        "Uma experiência hoteleira multilingue que liga descoberta, estadia e operações.",
+        "Um sistema de campo para programas, beneficiários e relatórios.",
         "Um site de estúdio, painel de gestão e plataforma de galerias para clientes.",
         "Uma presença digital para uma empresa de carga aérea.",
         "Senior Kofta é um dos nossos clientes na restauração."
@@ -2221,6 +2329,21 @@
           "Site",
           "Menu digital",
           "Pedidos"
+        ],
+        [
+          "Site",
+          "Menu digital",
+          "Pedidos"
+        ],
+        [
+          "Site de hotel",
+          "Experiência do hóspede",
+          "Operações"
+        ],
+        [
+          "Sistema de gestão",
+          "Dados de campo",
+          "Relatórios"
         ],
         [
           "Site",
