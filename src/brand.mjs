@@ -10,8 +10,10 @@ export default {
   surface: '#f5f4ef',
   ink: '#171a18',
   email: 'info@africantech.si', // Contact address displayed in the site and email brief action.
-  phone: '+5548999878448', // International phone number, including +.
-  whatsapp: '5548999878448', // International digits only, without +. Hidden until configured.
+  phone: '+27780400595', // International phone number, including +.
+  whatsapp: '27780400595', // International digits only, without +. Hidden until configured.
+  metaPixelId: '', // Meta Pixel ID (digits). Tracking loads only when set.
+  ga4Id: '', // Google Analytics 4 ID, e.g. G-XXXXXXX. Loads only when set.
   bookingUrl: '', // Optional https calendar link. Hidden until configured.
   siteUrl: 'https://africantech.si', // Your final domain, e.g. https://example.com. Enables canonical URLs and sitemap.
   defaultLocale: 'en',

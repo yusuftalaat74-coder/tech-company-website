@@ -173,7 +173,7 @@
     "surface": "#f5f4ef",
     "ink": "#171a18",
     "email": "info@africantech.si",
-    "whatsapp": "5548999878448",
+    "whatsapp": "27780400595",
     "bookingUrl": "",
     "siteUrl": "https://africantech.si",
     "defaultLocale": "en",
@@ -189,7 +189,9 @@
       "pt": "Sites, aplicações móveis, sistemas de gestão e cloud. Perspetiva africana, ambição global.",
       "ar": "مواقع وتطبيقات وأنظمة أعمال وبنية سحابية. برؤية أفريقية وطموح عالمي."
     },
-    "phone": "+5548999878448"
+    "phone": "+27780400595",
+    "metaPixelId": "",
+    "ga4Id": ""
   },
   "ui": {
     "en": {
