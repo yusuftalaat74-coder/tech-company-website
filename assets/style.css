@@ -12,3 +12,58 @@ html[dir=rtl]{--font:'Studio Arabic',Arial,sans-serif}html[dir=rtl] h1,html[dir=
 @media(max-width:900px){.engagement-grid{gap:25px}.engagement-grid h3{font-size:23px}.engagement-grid p{font-size:12px}.platform-card{padding:24px}.work-art{min-height:240px}}
 @media(max-width:600px){.language-picker summary{font-size:11px;gap:5px}.language-picker summary .icon{display:none}.header-actions{gap:10px}.hero-buttons{gap:10px}.hero-buttons .button{font-size:11px;padding:12px 14px;gap:10px}.engagement-grid{grid-template-columns:1fr;gap:35px}.engagement-grid h3{font-size:29px}.engagement-grid p{font-size:13px}.platform-grid,.work-grid{grid-template-columns:1fr}.platform-card{padding:25px}.platform-top{margin-bottom:24px}.platform-card h3{font-size:33px}.platform-actions .text-link{font-size:12px}.catalog-filters{gap:7px}.catalog-filters button{font-size:10px;padding:8px 12px}.home-industries .sector-grid{grid-template-columns:1fr}.home-industries .sector-card>p{font-size:13px}.home-industries .text-link{font-size:12px}.regional-grid{grid-template-columns:1fr;gap:32px}.regional-grid article{border-top:1px solid #cecebf;padding-top:22px}.regional-grid article>.icon{margin-bottom:16px}.regional-grid h3{font-size:27px}.regional-grid p{font-size:13px}.payment-rail span{font-size:11px;padding:8px 10px}.work-art{min-height:240px}.floating-contact{inset-inline-end:16px;bottom:16px;padding:14px}.floating-contact span{display:none}.floating-contact .icon{width:23px;height:23px}.section-heading h1{font-size:42px}html[lang=fr] .hero h1,html[lang=pt] .hero h1{font-size:clamp(46px,11.7vw,68px)}html[dir=rtl] .header-inner{gap:8px}}
 @media(max-width:600px){.capability-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.capability-strip>span{white-space:normal;gap:9px;min-width:0}.capability-strip i{flex-shrink:0}}
+
+/* Sector offers & launch pricing */
+.offers-section{padding-top:96px}
+.offer-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:stretch}
+.offer-card{display:flex;flex-direction:column;gap:22px;background:var(--white);border:1px solid var(--line);padding:32px 28px}
+.offer-card-standalone{max-width:760px}
+.offer-sector{padding-top:0;padding-bottom:40px}
+.offer-card-top{display:flex;align-items:flex-start;gap:16px}
+.offer-card-top>div{flex:1}
+.offer-card h3{font-size:26px}
+.offer-icon{display:grid;place-items:center;width:48px;height:48px;background:var(--surface);color:var(--accent)}
+.offer-product{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-top:6px}
+.offer-badge{background:var(--accent);color:#fff;font-size:11px;font-weight:700;padding:6px 10px;white-space:nowrap}
+.offer-promise{color:var(--ink);font-size:17px;line-height:1.45}
+.offer-items,.offer-plans,.offer-steps ol{list-style:none;margin:0;padding:0}
+.offer-items{display:grid;gap:10px}
+.offer-items li{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--muted)}
+.offer-items .icon{width:18px;height:18px;color:var(--accent);margin-top:2px}
+.offer-proof{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--ink);background:var(--surface);padding:12px 14px}
+.offer-proof .icon{width:18px;height:18px;color:var(--accent)}
+.offer-plans{display:grid;gap:0;border-top:1px solid var(--line);margin-top:auto}
+.offer-plan{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:14px 0;border-bottom:1px solid var(--line)}
+.offer-plan-name{font-weight:600;font-size:14px}
+.offer-plan-setup{display:flex;gap:10px;align-items:baseline;justify-content:flex-end}
+.offer-price-launch{font-size:24px;font-weight:600;color:var(--ink);letter-spacing:-.02em}
+.offer-price-launch small,.offer-plan-monthly small{font-size:11px;font-weight:500;color:var(--muted)}
+.offer-price-regular{font-size:14px;color:var(--muted)}
+.offer-plan-monthly{grid-column:1/-1;font-size:12px;color:var(--muted);text-align:end}
+.offer-delivery{display:flex;justify-content:space-between;font-size:13px}
+.offer-delivery strong{color:var(--ink)}
+.offer-cta{width:100%}
+.offer-note{margin-top:24px;font-size:12px;max-width:900px}
+.offer-steps{margin-top:72px;display:grid;grid-template-columns:240px 1fr;gap:40px;border-top:1px solid var(--line);padding-top:40px}
+.offer-steps h3{font-size:28px}
+.offer-steps ol{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.offer-steps li span{display:block;color:var(--accent);font-size:12px;font-weight:700;margin-bottom:8px}
+.offer-steps li strong{display:block;font-size:18px;font-weight:600;margin-bottom:6px}
+.offer-steps li p{font-size:14px}
+.offer-faq{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:60px}
+.offer-faq h2{font-size:clamp(30px,3vw,46px)}
+.offer-faq details{border-bottom:1px solid var(--line);padding:20px 0}
+.offer-faq summary{cursor:pointer;font-size:18px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:20px}
+.offer-faq summary::-webkit-details-marker{display:none}
+.offer-faq summary:after{content:'+';color:var(--accent);font-size:22px;line-height:1}
+.offer-faq details[open] summary:after{content:'−'}
+.offer-faq details p{margin-top:12px;font-size:15px;max-width:680px}
+.testimonial-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.testimonial{margin:0;background:var(--white);border:1px solid var(--line);padding:28px}
+.testimonial blockquote{margin:0 0 16px;font-size:18px;line-height:1.5}
+.testimonial figcaption{font-size:13px;color:var(--muted)}
+html[dir=rtl] .offer-plan-setup{justify-content:flex-start}
+html[dir=rtl] .offer-product,html[dir=rtl] .offer-badge{letter-spacing:0}
+@media(max-width:1100px){.offer-grid{grid-template-columns:1fr;max-width:640px}.offer-steps{grid-template-columns:1fr}.offer-faq{grid-template-columns:1fr;gap:24px}}
+@media(max-width:600px){.offer-card{padding:24px 18px}.offer-steps ol{grid-template-columns:1fr}.offer-price-launch{font-size:21px}}
+@media(max-width:600px){.offer-card-top{flex-wrap:wrap}.offer-card-top>div{flex:1 1 170px}.offer-badge{margin-inline-start:64px}.offer-card h3{font-size:23px}}
